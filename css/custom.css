@@ -38,7 +38,6 @@ menu {
   color: var(--egreen);
   padding: 0 2rem;
   margin: 0;
-  overflow-x: auto;
   border-radius: 2rem;
 }
 
@@ -47,6 +46,7 @@ menu ul {
   display: flex;
   margin: 0;
   padding: 0;
+  overflow-x: auto;
 }
 
 menu ul li {
