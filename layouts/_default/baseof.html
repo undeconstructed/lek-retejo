@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+
+  <meta name="description" content="Londona Esperanto-Klubo">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="rgb(0, 153, 0)">
+
+  {{ $styles := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint -}}
+  <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+
+  {{ range .AlternativeOutputFormats -}}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+  {{- end }}
+
+  {{ $mainJS := resources.Get "main.js" | resources.ExecuteAsTemplate "main.js" . | resources.Fingerprint -}}
+  <script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>Londona Esperanto-Klubo</h1>
+  </header>
+
+  <menu>
+    <ul>
+      <li class="lek"><a href="{{ .Site.BaseURL }}" class="active">LEK</a></li>
+      {{ $currentPage := . -}}
+      {{- range .Site.Menus.main -}}
+        {{ $clazz := "" -}}
+        {{ if $currentPage.IsMenuCurrent "main" . }}{{ $clazz = "active" -}}{{ end -}}
+        {{ if .HasChildren -}}
+          {{ if $currentPage.HasMenuCurrent "main" . }}{{ $clazz = "active" -}}{{ end -}}
+        {{ else -}}
+        {{ end -}}
+        <li><a href="{{ .URL }}" class="{{ $clazz }}">{{ .Name }}</a></li>
+      {{ end -}}
+      <li class="split"></li>
+      <li><a href="#">Aniĝu</a></li>
+      <li><a href="#">[Anoj]</a></li>
+    </ul>
+  </menu>
+
+  {{ block "main" . }}
+    default text
+  {{ end }}
+
+  <footer>
+    kopirajto?
+  </footer>
+
+</body>
+
+</html>

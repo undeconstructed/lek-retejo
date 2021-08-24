@@ -1,0 +1,14 @@
+{{ define "title" }}
+  {{ .Site.Title }} - {{ .Title }}
+{{ end }}
+
+{{ define "main" }}
+<main aria-role="main">
+  {{ .Content }}
+  {{ $paginator := .Paginator 5 }}
+  {{ range $paginator.Pages }}
+     {{ .Render "post" }}
+  {{ end }}
+  {{ template "_internal/pagination.html" . }}
+</main>
+{{ end }}

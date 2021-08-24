@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+@import "bootstrap-reboot";
+
+:root {
+  --egreen: rgb(0, 153, 0);
+}
+
+body {
+  background-color: white;
+  background-image: url(img/star.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  background-size: auto;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+body > header {
+  h1 {
+    text-align: center;
+    font-size: 400%;
+    background: rgba(0,153,0,0.8);
+    /* background-color: var(--egreen); */
+    color: white;
+    padding: 4rem 0;
+    margin: 0;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom: 2px solid var(--egreen);
+    font-family: "Homemade Apple", cursive;
+    text-shadow: #fff 1px 0 10px;
+  }
+}
+
+body > menu {
+  width: 100%;
+  background: rgba(255,255,255,0.8);
+  color: var(--egreen);
+  padding: 0 2rem;
+  margin: 0;
+  border-radius: 2rem;
+  transition: padding 0.5s ease-out;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+  }
+
+  ul li {
+    flex-grow: 1;
+    display: block;
+  }
+  ul li.split {
+    flex-grow: 100;
+  }
+
+  a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bold;
+  }
+  a.active {
+    color: white;
+    text-decoration: none;
+    /* background-color: var(--egreen); */
+    background: rgba(0,153,0,0.8);
+  }
+  a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: var(--egreen);
+  }
+}
+
+body > menu .lek {
+  // overflow: auto;
+  font-family: "Homemade Apple", cursive;
+  text-shadow: #fff 1px 0 10px;
+  // max-width: 0;
+}
+body > menu .lek a {
+  display: none;
+}
+body > .padding {
+  display: none;
+}
+body.sticky > menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 0;
+}
+body.sticky > menu .lek {
+  // max-width: 20em;
+  // transition: all 1s ease-out;
+}
+body.sticky > menu .lek a {
+  display: block;
+}
+body.sticky > .padding {
+  display: block;
+}
+
+body > main {
+  background: rgba(255,255,255,0.8);
+  border-top: 2px solid var(--egreen);
+  border-bottom: 2px solid var(--egreen);
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.twolang {
+  // display: flex;
+  // flex-direction: row;
+  column-count: 2;
+}
+.twolang > div {
+  // flex-grow: 1;
+  // flex-basis: 1;
+}
+
+body > footer {
+  background: rgba(255,255,255,0.8);
+  color: gray;
+  text-align: center;
+  padding: 1rem;
+}
+
+ul.pagination {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+
+  li a {
+    padding: 0 1em;
+  }
+}
+
+@media (min-width:40rem) {
+  .post {
+    margin: 3rem 10rem 1rem 10rem;
+    padding-bottom: 1rem;
+    position: relative;
+    border-bottom: 2px solid var(--egreen);
+
+    .post-meta time {
+      position: absolute;
+      top: 0rem;
+      left: -10rem;
+      width: 8rem;
+      text-align: center;
+      margin: 0 1rem;
+      border: 1px solid var(--egreen);
+      border-radius: 1em;
+      text-align: center;
+
+      .day {
+        font-size: 4em;
+        display: block;
+        margin: 0 0;
+      }
+      .month {
+        display: block;
+        background: var(--egreen);
+        color: white;
+      }
+      .year {
+        display: block;
+      }
+    }
+
+    .post-meta .by {
+      color: gray;
+      margin-bottom: 1rem;
+      display: block;
+    }
+  }
+
+  // .post+.post:before {
+  //   content: "";
+  //   height: 2rem;
+  //   display: block;
+  //   border-top: 2px solid var(--egreen);
+  // }
+}
+
+@media (max-width:40rem) {
+  body {
+  }
+  body > header h1 {
+    text-align: center;
+    font-size: 200%;
+    padding: 3rem 0;
+  }
+
+  .post {
+    padding-bottom: 1rem;
+
+    .post-meta {
+      color: gray;
+      display: block;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .twolang {
+    column-count: 1;
+  }
+  .twolang .en {
+    text-align: right;
+  }
+}

@@ -1,0 +1,14 @@
+{{ define "main" }}
+<main aria-role="main" class="home">
+  <p>Plej lasta novaĵo:
+    {{ with .Site.GetPage "novaĵoj" -}}
+    {{ range first 1 .Pages -}}
+      <a href="{{ .RelPermalink }}">{{ .Title -}}</a>
+    {{- end -}}
+  {{ end -}}</p>
+
+  <p>Trovu nin en: Tvito, kaj Jutubo, kaj ???</p>
+
+  {{ .Content }}
+</main>
+{{ end }}

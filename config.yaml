@@ -1,0 +1,12 @@
+baseURL: https://undeconstructed.github.io/lek/
+defaultContentLanguage: eo
+title: LEK
+disableKinds: [ "taxonomy", "taxonomyTerm", "sitemap" ]
+# sectionPagesMenu: "smain"
+outputs:
+  home:
+  - html
+  page:
+  - html
+  section:
+  - html
