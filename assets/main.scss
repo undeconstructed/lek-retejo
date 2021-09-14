@@ -128,6 +128,15 @@ body > main {
   // flex-basis: 1;
 }
 
+.event {
+  border: 1px solid var(--egreen);
+  border-radius: 1rem;
+  padding: 1em;
+}
+.event+.event {
+  margin-top: 1rem;
+}
+
 body > footer {
   background: rgba(255,255,255,0.8);
   color: gray;
