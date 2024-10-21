@@ -8,7 +8,7 @@
 :root {
   --egreen: #779734;
   --accent: #1b82bf;
-  --contrast: #f02d00;
+  --contrast: #982718;
 }
 
 .palette {
@@ -126,18 +126,13 @@ body > menu {
   }
 }
 
-body > menu .lek {
-  // overflow: auto;
-  font-family: "Homemade Apple", cursive;
-  text-shadow: #fff 1px 0 10px;
-  // max-width: 0;
-}
 body > menu .lek a {
   display: none;
 }
 body > .padding {
   display: none;
 }
+
 body.sticky > menu {
   position: fixed;
   top: 0;
@@ -158,11 +153,23 @@ body.sticky > .padding {
 
 body > main {
   background: rgba(255,255,255,0.8);
-  border-top: 2px solid var(--egreen);
-  border-bottom: 2px solid var(--egreen);
+  border-top: 3px solid var(--egreen);
+  border-bottom: 3px solid var(--egreen);
   border-radius: 2rem;
   margin-bottom: 2rem;
   padding: 1rem;
+
+  h1, h2 {
+    font-family: "Anton", sans-serif;
+    color: var(--contrast);
+  }
+
+  a:link {
+    color: var(--accent);
+  }
+  a:visited {
+    color: var(--accent);
+  }
 }
 
 .twolang {
@@ -204,12 +211,18 @@ ul.pagination {
   }
 }
 
+.post {
+  .post-meta .day {
+    font-family: "Playball", cursive;
+  }
+}
+
 @media (min-width:40rem) {
   .post {
     margin: 3rem 10rem 1rem 10rem;
     padding-bottom: 1rem;
     position: relative;
-    border-bottom: 2px solid var(--egreen);
+    border-bottom: 3px solid var(--egreen);
 
     .post-meta time {
       position: absolute;

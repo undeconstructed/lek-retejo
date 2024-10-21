@@ -1,7 +1,7 @@
 baseURL: https://undeconstructed.github.io/lek-retejo/
 defaultContentLanguage: eo
 title: LEK
-disableKinds: [ "taxonomy", "taxonomyTerm", "sitemap" ]
+disableKinds: [ "taxonomy", "sitemap" ]
 # sectionPagesMenu: "smain"
 outputs:
   home:
