@@ -6,7 +6,7 @@ function stickyMenu() {
   navbar.after(padding)
   let sticky = navbar.offsetTop
   document.addEventListener('scroll', () => {
-    if (window.pageYOffset >= sticky) {
+    if (window.scrollY >= sticky) {
       padding.style.height = navbar.offsetHeight + 'px'
       document.body.classList.add('sticky')
     } else {
