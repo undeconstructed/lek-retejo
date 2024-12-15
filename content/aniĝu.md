@@ -1,0 +1,115 @@
+---
+title: Aniĝu
+weight: 90
+menu: main
+---
+
+# Aniĝu
+
+La Londona Esperanto-Klubo bonvenigas vizitantojn, tamen se vi volas pli subteni la klubon, kial ne membriĝi?
+Via kotizo validos ĝis la venonta 31-a de decembro.
+
+<div id="aniĝuformo">
+<div class="form-container ls-maxw-650 mt-30">
+    <form id="formRegister" data-wb data-post-api-key="ZKTDHI0F16" data-post-ok="MSG_CLIENT,RESET" data-post-nok="MSG_CLIENT">
+        <input type="hidden" id="formRegister_Age" data-post-name="Age" />
+        <div class="row-flex">
+            <div class="cell ls-flex-grow-1">
+                <div class="cell-header"><label for="formRegister_FirstName">Persona nomo: <abbr class="required" title="deviga">*</abbr></label></div>
+                <div class="cell-body"><input id="formRegister_FirstName" data-post-name="FirstName" type="text" required maxlength="50"></div>
+            </div>
+            <div class="cell ls-flex-grow-1">
+                <div class="cell-header"><label for="formRegister_LastName">Familia nomo: <abbr class="required" title="deviga">*</abbr></label></div>
+                <div class="cell-body"><input id="formRegister_LastName" data-post-name="LastName" type="text" required maxlength="50"></div>
+            </div>
+        </div>
+        <div class="row-flex">
+            <div class="cell ls-flex-grow-1">
+                <div class="cell-header"><label for="formRegister_Email">Retadreso: <abbr class="required" title="deviga">*</abbr></label></div>
+                <div class="cell-body"><input id="formRegister_Email" data-post-name="Email" type="email" required maxlength="250"></div>
+            </div>
+            <div class="cell ls-flex-180">
+                <div class="cell-header"><label for="formRegister_Phone">Telefon-numero:</label></div>
+                <div class="cell-body"><input id="formRegister_Phone" data-post-name="Phone" type="tel" maxlength="20"></div>
+            </div>
+        </div>
+        <div class="row-flex">
+            <div class="cell ls-flex-grow-1">
+                <div class="cell-header"><label for="formRegister_AddressLine1">Adreso (linio 1): <abbr class="required" title="deviga">*</abbr></label></div>
+                <div class="cell-body"><input id="formRegister_AddressLine1" data-post-name="AddressLine1" type="text" required maxlength="100"></div>
+            </div>
+        </div>
+        <div class="row-flex">
+            <div class="cell ls-flex-grow-1">
+                <div class="cell-header"><label for="formRegister_AddressLine2">Adreso (linio 2):</label></div>
+                <div class="cell-body"><input id="formRegister_AddressLine2" data-post-name="AddressLine2" type="text" maxlength="100"></div>
+            </div>
+        </div>
+        <div class="row-flex">
+            <div class="cell ls-flex-grow-1">
+                <div class="cell-header"><label for="formRegister_AddressLine1">Adreso (linio 3):</label></div>
+                <div class="cell-body"><input id="formRegister_AddressLine3" data-post-name="AddressLine3" type="text" maxlength="100"></div>
+            </div>
+        </div>
+        <div class="row-flex">
+            <div class="cell ls-flex-120">
+                <div class="cell-header"><label for="formRegister_Postcode">Poŝtkodo: <abbr class="required" title="deviga">*</abbr></label></div>
+                <div class="cell-body"><input id="formRegister_Postcode" data-post-name="Postcode" type="text" required maxlength="20"></div>
+            </div>
+                <div class="cell ls-flex-grow-1">
+                <div class="cell-header"><label for="formRegister_Town">Urbo: <abbr class="required" title="deviga">*</abbr></label></div>
+                <div class="cell-body"><input id="formRegister_Town" data-post-name="Town" type="text" required maxlength="50"></div>
+            </div>
+                <div class="cell ls-flex-grow-1">
+                <div class="cell-header"><label for="formRegister_Country">Lando: <abbr class="required" title="deviga">*</abbr></label></div>
+                <div class="cell-body"><input id="formRegister_Country" data-post-name="Country" type="text" required maxlength="50"></div>
+            </div>
+        </div>
+        <hr />
+        <div class="row-flex">
+            <div class="cell ls-flex-grow-1">
+                <div class="cell-header"><label for="formRegister_MemberTypeId">Kotizo: <abbr class="required" title="deviga">*</abbr></label> (pago per bank-karto)</div>
+                <div class="cell-body">
+                    <select id="formRegister_MemberTypeId" data-post-name="MemberTypeId" data-get-api-key="HAX30TC7N2" required></select>
+                </div>
+            </div>
+            <div class="cell ls-flex-90">
+                <div class="cell-header"><label for="formRegister_Donation">Donaco (£):</label></div>
+                <div class="cell-body"><input id="formRegister_Donation" data-post-name="Donation" type="number" value="0" min="0" step="any"></div>
+            </div>
+            <div class="cell ls-flex-grow-1">
+                <div class="cell-header"><label for="formRegister_PaperNewsletter">Liverado de bulteno: <abbr class="required" title="deviga">*</abbr></label></div>
+                <div class="cell-body">
+                    <select id="formRegister_PaperNewsletter" data-post-name="PaperNewsletter" required>
+                        <option value="">Elektu...</option>
+                        <option value="0">Nur retpoŝte</option>
+                        <option value="1">Retpoŝte kaj leterpoŝte</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row-flex">
+            <div class="cell">
+                <div class="cell-header"><input type="checkbox" id="formRegister_Rules" required> <label class="font-weight-normal" for="formRegister_Rules">Per ĉi tio mi konfirmas, ke mi deziras (r)esti membro de Londona Esperanto-Klubo, kaj akceptas la <a href="/doc/lek_regularo.pdf">klubajn regulojn</a> (<a href="/doc/lek_regularo_libreto.pdf">presebla versio</a>).</label></div>
+            </div>
+        </div>
+        <hr />
+        <div class="row-flex  flex-center hide" id="formRegister_Post_OK_MSG_CLIENT">
+            <div class="cell">
+                <div class="cell-body text-center text-color-primary">Dankon! Vi baldaŭ ricevos retmesaĝon por konfirmi vian membriĝon.</div>
+            </div>
+        </div>
+        <div class="row-flex  flex-center hide" id="formRegister_Post_NOK_MSG_CLIENT">
+            <div class="cell">
+                <div class="cell-body text-center text-color-danger">Ŝajnas, ke kelkaj devigaj kampoj ankoraŭ ne estas plenaj. Provu denove aŭ kontaktu Anthony per retmesaĝo: <span data-email-address="EMAIL_ADMIN"></span></div>
+            </div>
+        </div>
+        <div class="row-flex flex-center">
+            <div class="cell">
+                <div class="cell-body"><button type="submit" data-button-submit class="btn color-primary">Sendu</button></div>
+            </div>
+        </div>
+    </form>
+</div>
+</div>

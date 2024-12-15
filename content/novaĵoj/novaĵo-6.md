@@ -1,13 +1,13 @@
 ---
-title: "Novaĵo 6"
-date: 2021-08-23T16:00:52+01:00
+title: "Nova retejo!"
+date: 2024-12-15T00:00:00+00:00
 author: fil
 menu:
   main:
     parent: 'Novaĵoj'
 ---
 
-Se estas nur 5 afiŝoj sur paĝo, ĉi tio montras ion ..
+Jen la momento por diri ion pri io.
 
 ## Titolo
 

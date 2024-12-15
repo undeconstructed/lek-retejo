@@ -10,3 +10,8 @@ outputs:
   - html
   section:
   - html
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

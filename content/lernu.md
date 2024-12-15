@@ -1,5 +1,5 @@
 ---
-title: Kursoj
+title: Lernu
 weight: 50
 menu: main
 ---

@@ -22,21 +22,6 @@
 
 <body>
 
-  <!-- <div class="palette">
-    <div>
-      <div class="cb" title="background">
-      </div>
-      <div class="c0" title="colour weak">
-      </div>
-      <div class="c1" title="colour">
-      </div>
-      <div class="ca" title="accent">
-      </div>
-      <div class="cc" title="contrast">
-      </div>
-    </div>
-  </div> -->
-
   <header>
     <h1>Londona Esperanto-Klubo</h1>
   </header>
@@ -52,11 +37,12 @@
           {{ if $currentPage.HasMenuCurrent "main" . }}{{ $clazz = "active" -}}{{ end -}}
         {{ else -}}
         {{ end -}}
+        {{ if strings.Contains .Name "Kontaktu" }}
+          <li class="split"></li>
+        {{ end -}}
         <li><a href="{{ .URL }}" class="{{ $clazz }}">{{ .Name }}</a></li>
       {{ end -}}
-      <li class="split"></li>
-      <li><a href="#">Aniĝu</a></li>
-      <li><a href="#">[Anoj]</a></li>
+      <!-- <li><a href="#">[Anoj]</a></li> -->
     </ul>
   </menu>
 
@@ -65,7 +51,7 @@
   {{ end }}
 
   <footer>
-    kopirajto?
+    Kopirajta de Londono-Esperanto Klubo, 2025
   </footer>
 
 </body>
