@@ -70,6 +70,7 @@ body > header {
     background-image: url(img/header.jpg);
     background-blend-mode: darken;
     background-size: cover;
+    background-position: 50% 50%;
     color: white;
     padding: 4rem 0;
     margin: 0;
@@ -112,6 +113,7 @@ body > menu {
     text-decoration: none;
     padding: 1rem;
     font-weight: bold;
+    text-wrap: nowrap;
   }
   a.active {
     color: white;
@@ -146,6 +148,8 @@ body.sticky > menu {
 body.sticky > menu .lek {
   // max-width: 20em;
   // transition: all 1s ease-out;
+  background-color: var(--egreen);
+  color: white;
 }
 body.sticky > menu .lek a {
   display: block;
@@ -179,15 +183,6 @@ body > main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-}
-
-.event {
-  border: 1px solid var(--egreen);
-  border-radius: 1rem;
-  padding: 1em;
-}
-.event+.event {
-  margin-top: 1rem;
 }
 
 body > footer {
@@ -226,6 +221,11 @@ ul.pagination {
   display: block;
   color: white !important;
 }
+.latest:hover {
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, var(--egreen) 100%);
+  color: var(--egreen) !important;
+  text-decoration: none !important;
+}
 
 .video {
   text-align: center;
@@ -237,25 +237,93 @@ ul.pagination {
   }
 }
 
-#eventoservo {
-  table {
-    max-width: 40em;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  td, th {
-    border: 1px solid var(--egreen);
-    padding: 2px;
-  }
-}
-
-#aniĝuformo, #kontaktuformo {
+.form {
   max-width: 40em;
   margin-left: auto;
   margin-right: auto;
   border: 1px solid var(--egreen);
-  padding: 1rem;
+  border-radius: 2rem;
+  padding: 2rem 1rem;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+
+  .cell-header label {
+    font-weight: bold;
+    text-wrap: nowrap;
+  }
+
+  select, textarea, input[type=text], input[type=email], input[type=tel], input[type=number] {
+    width: 100%;
+    background-color: white;
+    border: 1px solid var(--egreen);
+    border-radius: .3rem;
+    height: 2em;
+    padding: .5em;
+  }
+
+  textarea {
+    height: 10rem;
+  }
+
+  .cell.buttons {
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  button {
+    background-color: var(--accent);
+    color: white;
+    border-style: none;
+    border-radius: .2rem;
+    padding: .5rem;
+  }
+
+  .line {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .line+.line {
+    margin-top: 1rem;
+  }
+  .cell+.cell {
+    margin-left: 1rem;
+  }
+  .cell {
+    flex: 1;
+  }
+  .cell.split0 {
+    flex: 0 0;
+  }
+  .cell.split3 {
+    flex: 3;
+  }
+  .cell.split6 {
+    flex: 6;
+  }
+  .cell.split10 {
+    flex: 10;
+  }
+
+  .checkbox > * {
+    display: inline;
+  }
+
+  hr {
+    border: 1px solid var(--egreen);
+  }
+
+  .msg {
+    display: none;
+    font-weight: bold;
+    text-align: center;
+  }
+  .msg.success {
+    color: var(--accent);
+  }
+  .msg.error {
+    margin-top: 1rem;
+    color: var(--contrast);
+  }
 }
 
 @media (min-width:40rem) {
@@ -271,7 +339,7 @@ ul.pagination {
       left: -10rem;
       width: 8rem;
       text-align: center;
-      margin: 0 1rem;
+      margin: 0 1rem 0 0;
       border: 1px solid var(--egreen);
       border-radius: 1em;
       text-align: center;
@@ -298,6 +366,10 @@ ul.pagination {
     }
   }
 
+  .event.post {
+    margin-top: 1rem;
+  }
+
   // .post+.post:before {
   //   content: "";
   //   height: 2rem;
@@ -307,8 +379,6 @@ ul.pagination {
 }
 
 @media (max-width:40rem) {
-  body {
-  }
   body > header h1 {
     text-align: center;
     font-size: 200%;

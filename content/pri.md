@@ -24,6 +24,8 @@ Io okazas.
 
 ## Nia planoj
 
+Estas bonaj. Ni skribu pri ili.
+
 ## Estraro
 
 En 2025 ...

@@ -29,14 +29,14 @@ menu: main
   {{< lang eo >}}
 ## Pri LEK
 
-... [Pli!](pri)
+La Londona Esperanto-Klubo, fondita en 1903, estas Esperanto-asocio en Londono (Britujo), kiu zorgas pri la disvastigo de Esperanto en Londono kaj organizas la kulturan vivon de la komunumo parolanta Esperanton en Londono kaj ĉirkaŭ ĝi. [Pli →](pri)
 
 Ni havas ankaŭ [paĝon "Londona Esperanto-Klubo"](https://www.facebook.com/groups/168574686510076) en Facebook!
   {{</ lang >}}
   {{< lang en >}}
 ## About LEK
 
-... [More!](pri)
+The London Esperanto Club, founded in 1903, is an Esperanto association in London (United Kingdom), which encourages the spread of Esperanto in London kaj organises the cultural life of the community who speak Esperanto in London and around it. [More →](pri)
 
 We also have a ["Londona Esperanto-Klubo" page](https://www.facebook.com/groups/168574686510076) in Facebook!
   {{</ lang >}}
@@ -57,8 +57,8 @@ Ni ankaŭ strebas registri la prelegon kaj la postan demand/diskut-sesion. Vizit
 
 **Do you want to practise your Esperanto?** The London Esperanto Club meets on the 2nd Friday of every month in Highbury and online (Zoom) the other Fridays. You will find the list of our future meetings on our [events page](eventoj). Our meetings are held in Esperanto but you're more than welcome to come if you're still learning the language. Just [let us know](kontaktu) in advance and we will make sure that someone is here to help.
 
-Our meeting place ...
+Our meeting place is located at Highbury View, 89 Ronalds Road, London, N5 1XQ. See [this map](https://goo.gl/maps/XyiKwLQxoYidtWvS9) to know how to reach the meeting place from the Highbury & Islington tube station. It is approximately a 10-minute walk. Be aware that **to enter the meeting place, you will need an entry code** - we'll let you know it when you tell us that you want to come.
 
-We also try to record ...
+We also try to record the presentations and following question/discussion sessions. Visit [our youtube channel](https://www.youtube.com/channel/UCiN6RS-t5RDEKZy2ThCNnDg/videos) to see "LEK on screen".
   {{</ lang >}}
 {{</ twolang >}}
