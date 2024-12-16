@@ -14,11 +14,14 @@ const months = [
   "decembro",
 ]
 
-function stickyMenu() {
+function setupMenu() {
   let navbar = document.querySelector('body > menu')
+  let list = navbar.querySelector('ul')
+  
   let padding = document.createElement('div')
   padding.classList.add('padding')
   navbar.after(padding)
+
   let sticky = navbar.offsetTop
 
   let stick = () => {
@@ -30,9 +33,16 @@ function stickyMenu() {
     }
   }
 
+  let scroll = () => {
+    let s = list.scrollWidth > list.offsetWidth
+    navbar.classList.toggle('scroll', s)
+  }
+
   stick()
+  scroll()
 
   document.addEventListener('scroll', stick)
+  window.addEventListener('resize', scroll)
 
   let active = navbar.querySelector('.active')
   if (active) {
@@ -66,16 +76,18 @@ function cacheFetch(key, maxSeconds, url, opts) {
       }))
 
       return data
-    }).
-    catch(e => console.log(e))
+    })
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  stickyMenu()
+  setupMenu()
 
   {
     let es = document.querySelector('#eventoservo')
     if (es) {
+      let tmp = es.querySelector('#tmp-row')
+      let list = es.querySelector('.list')
+
       let body = JSON.stringify({
         'API_KEY': 'JAGBQOGQFM',
         'PageId': '1',
@@ -83,15 +95,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
       let lastMonth = -1
 
-      let renderErr = (e) => {
+      let renderErr = (err) => {
         let p = document.createElement('p')
         p.textContent = err
         list.replaceChildren(p)
       }
 
       let render = (data) => {
-        let tmp = es.querySelector('#tmp-row')
-        let list = es.querySelector('.list')
         list.replaceChildren()
 
         for (let i of data.output.data) {

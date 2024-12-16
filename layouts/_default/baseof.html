@@ -7,7 +7,7 @@
 
   <meta name="description" content="Londona Esperanto-Klubo">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="rgb(0, 153, 0)">
+  <meta name="theme-color" content="#779734">
 
   {{ $styles := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint -}}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
@@ -27,6 +27,7 @@
   </header>
 
   <menu>
+    <div class="left">&lt;</div>
     <ul>
       <li class="lek"><a href="{{ .Site.BaseURL }}">LEK</a></li>
       {{ $currentPage := . -}}
@@ -44,6 +45,7 @@
       {{ end -}}
       <!-- <li><a href="#">[Anoj]</a></li> -->
     </ul>
+    <div class="right">&gt;</div>
   </menu>
 
   {{ block "main" . }}

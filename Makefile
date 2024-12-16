@@ -1,4 +1,4 @@
 
 site:
-	rm -r ../lekret-pub/*
-	hugo -d ../lekret-pub/
+	-rm -r ../lek-retejo-pub/*
+	hugo -d ../lek-retejo-pub/
