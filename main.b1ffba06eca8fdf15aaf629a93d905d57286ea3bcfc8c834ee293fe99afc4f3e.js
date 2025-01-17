@@ -14,6 +14,16 @@ const months = [
   "decembro",
 ]
 
+const TESTING = false
+const URL = 'https://ekilio.com/api/lek/ZC7QTQ4ZSG'
+const KEYS = {
+  'kontakt': '486JROVIAY',
+  'aniĝ': 'CHTDHI0F25',
+  'zum': '2S7DJM36WO',
+  'event': 'JAGBQOGQFM',
+  'anspec': 'SY9D2YRY0X',
+}
+
 function setupMenu() {
   let navbar = document.querySelector('body > menu')
   let list = navbar.querySelector('ul')
@@ -79,6 +89,152 @@ function cacheFetch(key, maxSeconds, url, opts) {
     })
 }
 
+function setupForm(form, opts) {
+  opts = opts || {}
+
+  if (!opts.key) {
+    opts.key = form.getAttribute('data-post-api-key')
+    if (!opts.key) {
+      return
+    }
+  }
+
+  // ni faros per skripto
+  form.setAttribute('novalidate', true)
+
+  let msgWorking = form.querySelector('.msg.working')
+  let msgSuccess = form.querySelector('.msg.success')
+  let msgInvalid = form.querySelector('.msg.invalid')
+  let msgError = form.querySelector('.msg.error')
+
+  form.querySelector('[data-post-name=Age]').value = -45
+
+  let submit = data => {
+    return fetch(opts.url, {
+        method: 'POST',
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      }).
+      then(res => res.json()).
+      then(res => {
+        // console.log('res', res)
+        let status = res.status
+        if (status == 'OK') {
+          opts.onOK()
+        } else if (status == 'REDIRECT') {
+          opts.onRedirect(res.output.redirectLink)
+        } else if (status == 'ERROR') {
+          opts.onError(res.output)
+        } else {
+          opts.onError('malbona respondo')
+        }
+      })
+  }
+
+  let fakeSubmit = data => {
+    window.setTimeout(() => {
+      opts.onOK()
+    }, 1000)
+  }
+
+  opts.url = opts.url || URL
+
+  opts.onInvalid = opts.onInvalid || (() => {
+    if (msgInvalid) {
+      msgInvalid.style.display = 'block'
+    }
+  })
+
+  opts.onValid = opts.onValid || (() => {
+    if (msgInvalid) {
+      msgInvalid.style.display = 'none'
+    }
+  })
+
+  opts.onSubmit = opts.onSubmit || (data => {
+    // for (let l of form.querySelectorAll('.line')) {
+    //   l.style.display = 'none'
+    // }
+
+    if (!TESTING) {
+      submit(data)
+    } else {
+      fakeSubmit(data)
+    }
+  
+    if (msgWorking) {
+      msgWorking.style.display = 'block'
+    }
+  })
+
+  opts.onOK = opts.onOK || (() => {
+    if (msgWorking) {
+      msgWorking.style.display = 'none'
+    }
+    msgError.style.display = 'none'
+    msgSuccess.style.display = 'block'
+    form.reset()
+  })
+
+  opts.onRedirect = opts.onRedirect || (url => {
+    document.location.href = url
+  })
+
+  opts.onError = opts.onError || (res => {
+    if (msgWorking) {
+      msgWorking.style.display = 'none'
+    }
+
+    // for (let l of form.querySelectorAll('.line')) {
+    //   l.style.display = 'block'
+    // }
+  
+    msgError.style.display = 'block'
+  })
+
+  for (let f of form.querySelectorAll('input, textarea')) {
+    f.addEventListener('input', e => {
+      f.setCustomValidity('')
+      if (!f.validity.valid) {
+        f.setCustomValidity('Bezonata')
+      }
+    })
+  }
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+
+    if (!form.checkValidity()) {
+      opts.onInvalid()
+      return
+    }
+
+    let data = {
+      'API_KEY': opts.key,
+    }
+
+    for (let f of form.querySelectorAll('input, textarea, select')) {
+      if (!f.validity.valid) {
+        opts.onInvalid()
+        return
+      } else {
+        opts.onValid()
+      }
+
+      let [k, v] = [f.getAttribute('data-post-name'), f.value]
+      if (k) {
+        data[k] = v
+      }
+    }
+
+    // console.log(data)
+    opts.onValid()
+    opts.onSubmit(data)
+  })
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   setupMenu()
 
@@ -89,7 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
       let list = es.querySelector('.list')
 
       let body = JSON.stringify({
-        'API_KEY': 'JAGBQOGQFM',
+        'API_KEY': KEYS['event'],
         'PageId': '1',
       })
 
@@ -127,7 +283,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
 
-      cacheFetch('events', 300, 'https://ekilio.com/api/lek/ZC7QTQ4ZSG', {
+      cacheFetch('events', 300, URL, {
         method: 'POST', headers: {
           'Content-Type': 'application/json',
         }, body
@@ -142,19 +298,10 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   {
-    let cf = document.querySelector('#formContactUs')
-    if (cf) {
-      let msgSuccess = cf.querySelector('.msg.success')
-      let msgError = cf.querySelector('.msg.error')
-
-      cf.addEventListener('submit', e => {
-        e.preventDefault()
-
-        for (let l of cf.querySelectorAll('.line')) {
-          l.style.display = 'none'
-        }
-
-        msgSuccess.style.display = 'block'
+    let form = document.querySelector('#formContactUs')
+    if (form) {
+      setupForm(form, {
+        key: KEYS['kontakt'],
       })
     }
   }
@@ -162,21 +309,20 @@ document.addEventListener('DOMContentLoaded', () => {
   {
     let form = document.querySelector('#formRegister')
     if (form) {
-      let msgSuccess = form.querySelector('.msg.success')
-      let msgError = form.querySelector('.msg.error')
+      const listID ='HAX30TC7N2'
 
       let body = JSON.stringify({
-        API_KEY:	"SY9D2YRY0X",
-        KeyList:	"HAX30TC7N2",
+        API_KEY:	KEYS['anspec'],
+        KeyList:	listID,
       })
 
-      cacheFetch('memberships', 300, 'https://ekilio.com/api/lek/ZC7QTQ4ZSG', {
+      cacheFetch('memberships', 300, URL, {
         method: 'POST', headers: {
           'Content-Type': 'application/json',
         }, body }).
       then(data => {
         let select = form.querySelector('#formRegister_MemberTypeId')
-        let types = data.output['HAX30TC7N2']
+        let types = data.output[listID]
         for (let i of types) {
           let option = document.createElement('option')
           option.textContent = i.name
@@ -185,14 +331,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       })
 
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-
-        for (let l of form.querySelectorAll('.line')) {
-          l.style.display = 'none'
-        }
-
-        msgSuccess.style.display = 'block'
+      setupForm(form, {
+        key: KEYS['aniĝ'],
       })
     }
   }
@@ -200,22 +340,8 @@ document.addEventListener('DOMContentLoaded', () => {
   {
     let form = document.querySelector('#formZoom')
     if (form) {
-      let msgSuccess = form.querySelector('.msg.success')
-      let msgError = form.querySelector('.msg.error')
-
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-
-        let error = 1
-        if (!error) {
-          for (let l of form.querySelectorAll('.line')) {
-            l.style.display = 'none'
-          }
-          form.reset()
-          msgSuccess.style.display = 'block'
-        } else {
-          msgError.style.display = 'block'
-        }
+      setupForm(form, {
+        key: KEYS['zum'],
       })
     }
   }
