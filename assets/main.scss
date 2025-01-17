@@ -63,6 +63,10 @@ body {
 }
 
 body > header {
+  a {
+    text-decoration: none !important;
+  }
+
   h1 {
     text-align: center;
     font-size: 400%;
@@ -289,6 +293,10 @@ ul.pagination {
     padding: .5em;
   }
 
+  input:invalid, textarea:invalid, select:invalid {
+    border-color: var(--contrast);
+  }
+
   textarea {
     height: 10rem;
   }
@@ -345,8 +353,15 @@ ul.pagination {
     font-weight: bold;
     text-align: center;
   }
+  .msg.working {
+    color: var(--accent);
+  }
   .msg.success {
     color: var(--accent);
+  }
+  .msg.invalid {
+    margin-top: 1rem;
+    color: var(--contrast);
   }
   .msg.error {
     margin-top: 1rem;

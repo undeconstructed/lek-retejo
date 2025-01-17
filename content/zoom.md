@@ -10,6 +10,7 @@ Se vi havas ajnan demandon, bv sendi mesaĝon per nia [Kontakto-paĝo](../kontak
 
 <div class="form" id="zoomform">
   <form id="formZoom">
+    <input type="hidden" id="formZoom_Age" data-post-name="Age" />
     <div class="line">
       <div class="cell">
         <div class="cell-header"><label for="formZoom_FirstName">Persona nomo<abbr class="required" title="deviga/required">*</abbr></label></div>
@@ -28,16 +29,24 @@ Se vi havas ajnan demandon, bv sendi mesaĝon per nia [Kontakto-paĝo](../kontak
         <div class="cell-body"><input id="formZoom_Email" data-post-name="Email" type="email" required></div>
       </div>
     </div>
+    <div class="msg working">
+      <div class="cell">
+        <div class="cell-body">Bonvolu atendi.</div>
+      </div>
+    </div>
     <div class="msg success">
       <div class="cell">
-        <div class="cell-body text-center text-color-primary">Dankon! Ni baldaŭ sendos al vi la zoom-ligilon!</div>
+        <div class="cell-body">Dankon! Ni baldaŭ sendos al vi la zoom-ligilon!</div>
+      </div>
+    </div>
+    <div class="msg invalid">
+      <div class="cell">
+        <div class="cell-body">Bonovlu plenigi la bezonatajn kampojn.</div>
       </div>
     </div>
     <div class="msg error">
       <div class="cell">
-        <div class="cell-body">
-          Ŝajnas, ke kelkaj kampoj estas malplenaj. Provu denove aŭ kontaktu nin per retmesaĝo: <span data-email-address ="EMAIL_ADMIN"></span> 
-        </div>
+        <div class="cell-body">Okazis eraro dum sendo de la mesaĝo. Bonvolu provi denove.</div>
       </div>
     </div>
     <div class="line">

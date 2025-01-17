@@ -11,6 +11,7 @@ Via kotizo validos ĝis la venonta 31-a de decembro.
 
 <div class="form" id="joinform">
   <form id="formRegister">
+    <input type="hidden" id="formRegister_Age" data-post-name="Age" />
     <div class="line">
       <div class="cell">
         <div class="cell-header"><label for="formRegister_FirstName">Persona nomo: <abbr class="required" title="deviga">*</abbr></label></div>
@@ -23,7 +24,7 @@ Via kotizo validos ĝis la venonta 31-a de decembro.
     </div>
     <div class="line">
       <div class="cell split3">
-        <div class="cell-header"><label for="formRegister_Email">Retadreso: <abbr class="required" title="deviga">*</abbr></label></div>
+        <div class="cell-header"><label for="formRegister_Email">Retpoŝtadreso: <abbr class="required" title="deviga">*</abbr></label></div>
         <div class="cell-body"><input id="formRegister_Email" data-post-name="Email" type="email" required maxlength="250"></div>
       </div>
       <div class="cell">
@@ -97,14 +98,24 @@ Via kotizo validos ĝis la venonta 31-a de decembro.
       </div>
     </div>
     <hr class="line" />
+    <div class="msg working">
+      <div class="cell">
+        <div class="cell-body">Bonvolu atendi.</div>
+      </div>
+    </div>
     <div class="msg success">
       <div class="cell">
-        <div class="cell-body">Dankon! Vi baldaŭ ricevos retmesaĝon por konfirmi vian membriĝon.</div>
+        <div class="cell-body">Dankon! Vi baldaŭ ricevos retmesaĝon por konfirmi vian aniĝon.</div>
+      </div>
+    </div>
+    <div class="msg invalid">
+      <div class="cell">
+        <div class="cell-body">Bonovlu plenigi la bezonatajn kampojn, kaj konfirmi kaj vi akceptas la regulojn.</div>
       </div>
     </div>
     <div class="msg error">
       <div class="cell">
-        <div class="cell-body">Ŝajnas, ke kelkaj devigaj kampoj ankoraŭ ne estas plenaj. Provu denove aŭ kontaktu Anthony per retmesaĝo: <span data-email-address="EMAIL_ADMIN"></span></div>
+        <div class="cell-body">Okazis eraro dum sendo de la mesaĝo. Bonvolu provi denove.</div>
       </div>
     </div>
     <div class="line">

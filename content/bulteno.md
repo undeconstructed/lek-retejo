@@ -8,6 +8,10 @@ menu: main
 
 En la bulteno troveblas la programo de kunsidoj, novaĵoj kaj ĝeneralaj informoj pri la klubo. 
 
+## 2025
+
+* [LEK bulteno: januaro - februaro 2025](/bultenoj/2025-01.pdf)
+
 ## 2024
 
 * [LEK bulteno: novembro - decembro 2024](/bultenoj/2024-11.pdf)
