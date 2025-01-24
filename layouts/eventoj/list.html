@@ -28,8 +28,8 @@
       {{ range (.Paginate $pages 10).Pages }}
         {
           "title": {{ .Title }},
-          "date": {{ .Param "event-date" }},
-          "place": {{ .Param "place" }},
+          "date": {{ .Param "eventdato" }},
+          "place": {{ .Param "loko" }},
           "url": {{ .RelPermalink }},
           "text": {{ .Content }},
         },
@@ -37,24 +37,18 @@
     ]
   </script>
   <div class="calendar">
-    <template id="tmp-calendar">
-    </template>
     <template id="tmp-event">
-      <article class="post event">
-        <header>
-          <h3 class="title"></h3>
-          <div class="post-meta">
-            <time class="time"><span class="day"></span></time>
-          </div>
-        </header>
-        <span class="place"></span>
-        <div class="text"></div>
-        <footer>
-          <a class="link"><nobr>Pli →</nobr></a>
-        </footer>
-      </article>
+      <div class="event">
+        <div class="event-meta">
+          <time class="time"><span class="month"></span> <span class="day"></span></time>
+        </div>
+        <div class="event-line">
+          <h3><span class="title"></span></h3>
+          <p class="place"></p>
+          <p><a class="link"><nobr>Pli →</nobr></a></p>
+        </div>
+      </div>
     </template>
   </div>
 </main>
-
 {{ end }}

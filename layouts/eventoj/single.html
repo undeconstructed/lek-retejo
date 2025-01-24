@@ -1,10 +1,13 @@
 {{ define "title" }}
-  {{ .Site.Title }} - {{ .Title }}
+  LEK prezentas: {{ .Title }}
 {{ end }}
 
 {{- define "main" }}
 <main aria-role="main">
-  <h2>{{ .Title }}</h2>
+  <h2>LEK prezentas: {{ .Title }}</h2>
+  <p>Je: {{ (.Param "eventdato" | time).Format "2006-01-02T15:04:05Z07:00" }}</p>
+  <p>Ĉe: {{ .Param "loko" }}</p>
   {{ .Content }}
+  <p><a href="{{ (.Site.GetPage "eventoj").RelPermalink }}">Pli da eventoj.</a></p>
 </main>
 {{- end }}

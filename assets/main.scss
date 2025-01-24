@@ -369,6 +369,45 @@ ul.pagination {
   }
 }
 
+.calendar {
+  margin: 2rem auto 0 auto;
+  width: 70em;
+
+  .event {
+    display: grid; 
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto; 
+    gap: 0.5em 1em;
+    grid-template-areas: "date content";
+    margin-bottom: 1em;
+
+    border: 2px solid var(--egreen);
+    border-radius: 0 2rem 2rem 0;
+    // align-items: baseline;
+
+    .event-meta {
+      text-align: right;
+      background-color: var(--egreen);
+      color: white;
+      padding: 1rem;
+        // border-radius: 2rem 0 0 2rem;
+      font-size: 2em;
+        
+        .day {
+          font-size: 2em;
+          font-family: "Playball", cursive;
+        }
+      }
+    
+    h3 {
+      font-weight: normal;
+      font-size: 2em;
+      font-family: "Anton", sans-serif;
+      color: var(--egreen);
+    }
+  }
+}
+
 @media (min-width:40rem) {
   .post {
     margin: 3rem 10rem 1rem 10rem;

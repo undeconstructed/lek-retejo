@@ -1,5 +1,8 @@
 ---
 title: Ekparolu!
+menu:
+  main:
+    parent: "Lernu / Learn"
 ---
 
 # Ekparolu!
