@@ -4,7 +4,7 @@ date: 2024-12-15T00:00:00+00:00
 author: fil
 menu:
   main:
-    parent: 'Novaĵoj'
+    parent: "Novaĵoj"
 ---
 
 Jen la momento por diri ion pri io.

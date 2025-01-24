@@ -4,6 +4,11 @@
 
 {{ define "main" }}
 <main aria-role="main">
-  <h2>{{ .Page.Title }}</h2>
+  {{ .Content }}
+  {{ $paginator := .Paginator 5 }}
+  {{ range $paginator.Pages }}
+     {{ .Render "withtitle" }}
+  {{ end }}
+  {{ template "_internal/pagination.html" . }}
 </main>
 {{ end }}

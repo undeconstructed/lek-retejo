@@ -1,0 +1,60 @@
+{{ define "title" }}
+  {{ .Site.Title }} - {{ .Title }}
+{{ end }}
+
+{{ define "main" }}
+<main aria-role="main">
+  {{ .Content }}
+  {{ $pages := (sort .Pages "File.Path").Reverse }}
+  <noscript>
+    {{ range (.Paginate $pages 10).Pages }}
+      <article class="post event">
+        <header>
+          <h3 class="title">{{ .Title }}</h3>
+          <div class="post-meta">
+            <time class="time"><span class="day"></span></time>
+          </div>
+        </header>
+        <span class="place">{{ .Param "place" }}</span>
+        {{ .Content }}
+        <footer>
+          <a class="link" href="{{ .RelPermalink }}"><nobr>Pli →</nobr></a>
+        </footer>
+      </article>
+    {{ end }}
+  </noscript>
+  <script>
+    const events = [
+      {{ range (.Paginate $pages 10).Pages }}
+        {
+          "title": {{ .Title }},
+          "date": {{ .Param "event-date" }},
+          "place": {{ .Param "place" }},
+          "url": {{ .RelPermalink }},
+          "text": {{ .Content }},
+        },
+      {{ end }}
+    ]
+  </script>
+  <div class="calendar">
+    <template id="tmp-calendar">
+    </template>
+    <template id="tmp-event">
+      <article class="post event">
+        <header>
+          <h3 class="title"></h3>
+          <div class="post-meta">
+            <time class="time"><span class="day"></span></time>
+          </div>
+        </header>
+        <span class="place"></span>
+        <div class="text"></div>
+        <footer>
+          <a class="link"><nobr>Pli →</nobr></a>
+        </footer>
+      </article>
+    </template>
+  </div>
+</main>
+
+{{ end }}

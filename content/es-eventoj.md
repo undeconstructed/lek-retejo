@@ -1,7 +1,7 @@
 ---
-title: Eventoj
+title: ES Eventoj
 weight: 40
-menu: main
+# menu: main
 ---
 
 # Eventoj
@@ -20,27 +20,3 @@ The London Esperanto Club meets on the 2nd Friday of every month in Highbury and
 {{</ twolang >}}
 
 {{< eventoservo >}}
-
-<!-- ## aŭgusto
-
-{{< event title="Prelego: ..." time="1000" place="ĉie" >}}
-Iu parolos pri io.
-{{< /event >}}
-
-{{< event title="Komunuma evento: ..." time="1000" place="ĉie" >}}
-Homoj faros ion kune.
-{{< /event >}}
-
-{{< event title="Lerna afero: ..." time="1000" place="ĉie" >}}
-Homoj lernos ion?
-{{< /event >}}
-
-{{< event title="Prelego: ..." time="1000" place="ĉie" >}}
-Iu parolos pri io.
-{{< /event >}}
-
-## septembro
-
-..
-
-## oktobro -->
