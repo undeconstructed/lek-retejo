@@ -6,8 +6,13 @@
       <span class="by">afiŝis {{ .Params.author }}</span>
     </div>
   </header>
-  {{ .Content }}
-  <footer>
-    <a href='{{ .RelPermalink }}'><nobr>Pli →</nobr></a>
-  </footer>
+  {{ .IsSection }}
+  {{ if eq . .Section }}
+    {{ .Summary }}
+    <footer>
+      <a href='{{ .RelPermalink }}'><nobr>Pli →</nobr></a>
+    </footer>
+  {{ else }}
+    {{ .Content }}
+  {{ end }}
 </article>

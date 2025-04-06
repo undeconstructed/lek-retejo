@@ -5,50 +5,51 @@
 {{ define "main" }}
 <main aria-role="main">
   {{ .Content }}
-  {{ $pages := (sort .Pages "File.Path").Reverse }}
-  <noscript>
-    {{ range (.Paginate $pages 10).Pages }}
-      <article class="post event">
-        <header>
-          <h3 class="title">{{ .Title }}</h3>
-          <div class="post-meta">
-            <time class="time"><span class="day"></span></time>
-          </div>
-        </header>
-        <span class="place">{{ .Param "place" }}</span>
-        {{ .Content }}
-        <footer>
-          <a class="link" href="{{ .RelPermalink }}"><nobr>Pli →</nobr></a>
-        </footer>
-      </article>
-    {{ end }}
-  </noscript>
-  <script>
-    const events = [
-      {{ range (.Paginate $pages 10).Pages }}
-        {
-          "title": {{ .Title }},
-          "date": {{ .Param "eventdato" }},
-          "place": {{ .Param "loko" }},
-          "url": {{ .RelPermalink }},
-          "text": {{ .Content }},
-        },
-      {{ end }}
-    ]
-  </script>
   <div class="calendar">
-    <template id="tmp-event">
-      <div class="event">
-        <div class="event-meta">
-          <time class="time"><span class="month"></span> <span class="day"></span></time>
-        </div>
-        <div class="event-line">
-          <h3><span class="title"></span></h3>
-          <p class="place"></p>
-          <p><a class="link"><nobr>Pli →</nobr></a></p>
-        </div>
+  {{ $pages := (sort .Pages "File.Path").Reverse }}
+  {{ range (.Paginate $pages 10).Pages }}
+    {{ $t := .Param "eventdato" | time }}
+    <div class="event">
+      <div class="event-meta">
+        <time class="time"><span class="month">{{ index $.Site.Data.monatoj (printf "%d" $t.Month) }}</span> <span class="day">{{ $t.Day }}</span></time>
       </div>
-    </template>
-  </div>
+      <div class="event-line">
+        <h3><span class="title">{{ .Title }}</span></h3>
+        <p class="place">Ĉe: {{ .Param "loko" }} - {{ .Summary }}</p>
+        <p><a class="link" href="{{ .RelPermalink }}"><nobr>Pli →</nobr></a></p>
+      </div>
+    </div>
+  {{ end }}
+</div>
 </main>
 {{ end }}
+
+{{/*
+per ĉi tio oni povas doni la informon a skipto por uzi ĝin pli kreeme.
+<script>
+  const events = [
+    {{ range (.Paginate $pages 10).Pages }}
+      {
+        "title": {{ .Title }},
+        "date": {{ .Param "eventdato" }},
+        "place": {{ .Param "loko" }},
+        "url": {{ .RelPermalink }},
+        "text": {{ .Summary }},
+      },
+    {{ end }}
+  ]
+</script>
+  <template id="tmp-event">
+    <div class="event">
+      <div class="event-meta">
+        <time class="time"><span class="month"></span> <span class="day"></span></time>
+      </div>
+      <div class="event-line">
+        <h3><span class="title"></span></h3>
+        <p class="place"></p>
+        <p><a class="link"><nobr>Pli →</nobr></a></p>
+      </div>
+    </div>
+  </template>
+</div>
+*/}}

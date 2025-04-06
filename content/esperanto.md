@@ -1,5 +1,8 @@
 ---
 title: Esperanto
+menu:
+  main:
+    parent: "Pri"
 ---
 
 Esperanto was created with the aim to be a fair communication tool

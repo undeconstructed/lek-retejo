@@ -8,6 +8,8 @@ menu: main
 
 ## Historio de la klubo
 
+<!-- ![Londono Vokas](londonovokas.png) -->
+
 La Londona Esperanto-Klubo estas Esperanto-asocio en Londono (Britujo), kiu zorgas pri la disvastigo de Esperanto en Londono kaj organizas la kulturan vivon de la komunumo parolanta Esperanton en Londono kaj ĉirkaŭ ĝi.
 
 Ĝi estis fondita en 1903 kaj tial ĝi estas unu el la plej antikvaj Esperanto-kluboj en la mondo. En sia pli ol jarcenta vivo, ĝi aranĝis multajn aferojn kaj respondecis pri multaj eldonaĵoj. Jam en 1910 oni aperigis en Londono la tradukon de la Biblio farita de Zamenhof rekte el la hebrea teksto. Ĝin eldonis la British and Foreign Bible Society (BFBS). En la sama perido, teamo de pastroj kaj kleruloj parolantaj Esperanton tradukis la Novan Testamenton. La traduko finiĝis en 1912, sed aperis en nova eldono kune kun la Malnova testamento en 1926. Ĝi estas konata kiel la Londona Biblio.
