@@ -239,9 +239,31 @@ document.addEventListener('DOMContentLoaded', () => {
   setupMenu()
 
   {
+    let ca = document.querySelector('.calendar')
+    if (ca) {
+      let tmpEve = ca.querySelector('#tmp-event').content
+
+      for (let i of events) {
+        let date = new Date(i.date)
+        let month = date.getMonth()
+
+        let lin = tmpEve.cloneNode(true)
+        lin.querySelector('.time').setAttribute("datetime", date.toISOString())
+        lin.querySelector('.month').textContent = months[month]
+        lin.querySelector('.day').textContent = date.getDate()
+        lin.querySelector('.title').textContent = i.title
+        lin.querySelector('.place').textContent = i.place
+        // lin.querySelector('.text').innerHTML = i.text
+        lin.querySelector('.link').href = i.url
+        ca.append(lin)
+      }
+    }
+  }
+
+  {
     let es = document.querySelector('#eventoservo')
     if (es) {
-      let tmp = es.querySelector('#tmp-row')
+      let tmp = es.querySelector('#tmp-row').content
       let list = es.querySelector('.list')
 
       let body = JSON.stringify({
@@ -271,7 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
             list.append(h2)
           }
 
-          let lin = tmp.content.cloneNode(true)
+          let lin = tmp.cloneNode(true)
           lin.querySelector('.time').setAttribute("datetime", date.toISOString())
           lin.querySelector('.day').textContent = date.getDate()
           // lin.querySelector('.month').textContent = months[date.getMonth()]

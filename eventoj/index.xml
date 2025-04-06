@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eventoj on LEK</title>
+    <link>https://undeconstructed.github.io/lek-retejo/eventoj/</link>
+    <description>Recent content in Eventoj on LEK</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>eo</language>
+    <atom:link href="https://undeconstructed.github.io/lek-retejo/eventoj/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Andoro: ĉio, kion vi volas scii</title>
+      <link>https://undeconstructed.github.io/lek-retejo/eventoj/2025-01-24/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://undeconstructed.github.io/lek-retejo/eventoj/2025-01-24/</guid>
+      <description>Iu parolos pri io.</description>
+    </item>
+    <item>
+      <title>Komunuma evento: ...</title>
+      <link>https://undeconstructed.github.io/lek-retejo/eventoj/2025-01-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://undeconstructed.github.io/lek-retejo/eventoj/2025-01-10/</guid>
+      <description>Homoj faros ion kune.</description>
+    </item>
+    <item>
+      <title>Lerna afero: ...</title>
+      <link>https://undeconstructed.github.io/lek-retejo/eventoj/2025-01-17/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://undeconstructed.github.io/lek-retejo/eventoj/2025-01-17/</guid>
+      <description>Homoj lernos ion?</description>
+    </item>
+    <item>
+      <title>Lingvo NEO</title>
+      <link>https://undeconstructed.github.io/lek-retejo/eventoj/2025-01-31/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://undeconstructed.github.io/lek-retejo/eventoj/2025-01-31/</guid>
+      <description>Esperantido kreita en la 1960-aj jaroj.</description>
+    </item>
+    <item>
+      <title>Nia Damo de Parizo</title>
+      <link>https://undeconstructed.github.io/lek-retejo/eventoj/2025-02-07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://undeconstructed.github.io/lek-retejo/eventoj/2025-02-07/</guid>
+      <description>Rekonstruado de katedralo</description>
+    </item>
+    <item>
+      <title>Restoracia kunmanĝado</title>
+      <link>https://undeconstructed.github.io/lek-retejo/eventoj/2025-02-14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://undeconstructed.github.io/lek-retejo/eventoj/2025-02-14/</guid>
+      <description>Vidu la priskribon.</description>
+    </item>
+  </channel>
+</rss>
