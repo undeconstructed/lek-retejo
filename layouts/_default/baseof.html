@@ -10,7 +10,7 @@
   <meta name="theme-color" content="#779734">
   <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}/favicon.ico">
 
-  {{ $styles := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint -}}
+  {{ $styles := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.scss" . | css.Sass | resources.Minify | resources.Fingerprint -}}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
 
   {{ range .AlternativeOutputFormats -}}

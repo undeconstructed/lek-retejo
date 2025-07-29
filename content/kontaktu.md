@@ -11,25 +11,25 @@ menu: main
     <input type="hidden" id="formContactUs_Age" data-post-name="Age" />
     <div class="line">
       <div class="cell">
-        <div class="cell-header"><label for="formContactUs_FirstName">Persona nomo / First Name <abbr class="required" title="deviga/required">*</abbr></label></div>
+        <div class="cell-header"><label for="formContactUs_FirstName">Persona nomo / First Name: <abbr class="required" title="deviga/required">*</abbr></label></div>
         <div class="cell-body"><input id="formContactUs_FirstName" data-post-name="FirstName" type="text" required></div>
       </div>
     </div>
     <div class="line">
       <div class="cell">
-        <div class="cell-header"><label for="formContactUs_LastName">Familia nomo / Last Name <abbr class="required" title="deviga/required">*</abbr></label></div>
+        <div class="cell-header"><label for="formContactUs_LastName">Familia nomo / Last Name: <abbr class="required" title="deviga/required">*</abbr></label></div>
         <div class="cell-body"><input id="formContactUs_LastName" data-post-name="LastName" type="text" required></div>
       </div>
     </div>
     <div class="line">
       <div class="cell">
-        <div class="cell-header"><label for="formContactUs_Email">Retpoŝtadreso / Email address <abbr class="required" title="deviga/required">*</abbr></label></div>
+        <div class="cell-header"><label for="formContactUs_Email">Retpoŝtadreso / Email address: <abbr class="required" title="deviga/required">*</abbr></label></div>
         <div class="cell-body"><input id="formContactUs_Email" data-post-name="Email" type="email" required></div>
       </div>
     </div>
     <div class="line">
       <div class="cell">
-        <div class="cell-header"><label for="formContactUs_Message">Mesaĝo / Message <abbr class="required" title="deviga/required">*</abbr></label></div>
+        <div class="cell-header"><label for="formContactUs_Message">Mesaĝo / Message: <abbr class="required" title="deviga/required">*</abbr></label></div>
         <div class="cell-body h-220"><textarea id="formContactUs_Message" data-post-name="Message" required></textarea></div>
       </div>
     </div>

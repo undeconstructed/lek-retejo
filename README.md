@@ -1,5 +1,13 @@
 # lekret
 
+## run
+
 ```
-hugo -d ../lekret-pub/
+hugo server
+```
+
+## build
+
+```
+make site
 ```

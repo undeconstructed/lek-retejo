@@ -12,6 +12,12 @@ La surloka klubejo ekzistas nur dum kunvenoj, ĝi estas en Highbury ...
 
 ## Fotoj
 
+* [Greenwich (Promenado) - 27an de junio 2025](https://photos.app.goo.gl/cQTXdixDPidCRxdF6)
+* [Highbury (Alexander/Shenghao Hu) - 13an de junio 2025](https://photos.app.goo.gl/fb5F1fcLZPaGu8Gz6)
+* [Intervjuo de Anna Lowenstein pri Renato - 11an de aprilo 2025](https://photos.app.goo.gl/S838moxCMTWJwZe57)
+* [Funebra ceremonio por Renato - 3an de marto 2025](https://photos.app.goo.gl/Xv8NhbVMEFuJDEXq9)
+* [Tbilisi (kluba vespermanĝo) - 14an de februaro 2025](https://photos.app.goo.gl/xA56M4JmnbEZnaux9)
+* [Highbury (novjara festo) - 10an de januaro 2025](https://photos.app.goo.gl/XgWFoRqNiQ8vyaAY6)
 * [Highbury (Zamenhofa vespero) - 13an de decembro 2024](https://photos.app.goo.gl/kFKgR9taUr8XMrCm9)
 * [Highbury (lingva seminario de Anna Lowenstein) - 8an de novembro 2024](https://photos.app.goo.gl/asFC7PaAKQNoT6aSA)
 * [Paddington - 5an de oktobro 2024](https://photos.app.goo.gl/dUPGHK4dpnnFmexr7)

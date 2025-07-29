@@ -409,6 +409,38 @@ ul.pagination {
   }
 }
 
+.tablo-estraro {
+  margin-bottom: 1em;
+  td {
+    padding: .5em .5em .5em 0;
+  }
+  tr > td:first-child {
+    font-weight: bold;
+  }
+  td, th {
+    padding: .5em;
+    border: 1px solid #dee2e6
+  }
+  th {
+    background-color: rgba(0,0,0,.05);
+  }
+}
+
+.tablo-estraro-pasinta {
+  width: 100%;
+  margin-bottom: 1em;
+  td, th {
+    padding: .5em;
+    border: 1px solid #dee2e6
+  }
+  thead {
+    background-color: rgba(0,0,0,.05);
+  }
+  tbody > tr:nth-child(2n) {
+    background-color: rgba(0,0,0,.05);
+  }
+}
+
 .imgright {
   max-width: 25%;
   float: right;
