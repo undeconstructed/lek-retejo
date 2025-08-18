@@ -17,7 +17,7 @@ Se vi progresas, eble vi ŝatus paroli kun instruistoj de ĉirkaŭ la mondo, kiu
   {{< lang en >}}
 ## Courses
 
-We love [kursaro.net](http://kursaro.net). These courses were started by a member of the London club, and are taught be skilled esperantists, over the Internet, to people across the world. If you want to learn from a teacher, with group lessions, this is for you.
+We love [kursaro.net](http://kursaro.net). These courses were started by a member of the London club, and are taught by skilled esperantists, over the Internet, to people across the world. If you want to learn from a teacher, with group lessions, this is for you.
 
 If you are progressing, then perhaps you would like to speak with teachers from the around the world, who can help you with both instruction and an opportunity to speak in a low-pressure environment. You are looking for [Ekparolu!](../ekparolu)
   {{< /lang >}}
@@ -31,7 +31,7 @@ Vi povas komenci tre rapide per [Esperanto en 17 minutoj](https://undeconstructe
 
 Aŭ iru pli profunden per [Esperanto in 12 days](https://learn.esperanto.com/en).
 
-Troviĝas bela kurso kun originala rakonto ĉe [Lernu.net](https://lernu.net/).
+Troviĝas kompleta kaj bela kurso ĉe [Lernu.net](https://lernu.net/), konstruita ĉirkaŭ originala rakonto de [verkisto kaj LEKano Anna Löwenstein](https://en.wikipedia.org/wiki/Anna_L%C3%B6wenstein).
 
 Aŭ por multe de ekzercado jen [Duolingo](https://www.duolingo.com/course/eo/en/Learn-Esperanto). Esperanto estas unu el malmultaj lingvoj kiujn oni povas lerni bone per Duolingo, ĉar la konsekvenceco de la lingvo permesas ke oni lernu sen multaj klarigoj. Sed, bonvolu ne pensi ke ni ĝenerale rekomendas Duolingon kiel lernilon.
   {{< /lang >}}
@@ -42,7 +42,7 @@ You can start very quickly with [Esperanto en 17 minutoj](https://undeconstructe
 
 Or you can do deeper with [Esperanto in 12 days](https://learn.esperanto.com/en).
 
-You can find a nice course with an original story at [Lernu.net](https://lernu.net/).
+You can find a complete and attractive course at [Lernu.net](https://lernu.net/), built around an original story by [author and LEK-member Anna Löwenstein](https://en.wikipedia.org/wiki/Anna_L%C3%B6wenstein).
 
 Or for more practise, there's [Duolingo](https://www.duolingo.com/course/eo/en/Learn-Esperanto). Esperanto is one of few languages which one can learn well using Duolingo, because the consistency of the language lets one learn without many explanations. But, please don't think that we generally recommend Duolingo as a learning tool.
   {{< /lang >}}

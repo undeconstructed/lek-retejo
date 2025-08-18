@@ -60,7 +60,7 @@ function setupMenu() {
   }
 }
 
-function cacheFetch(key, maxSeconds, url, opts) {
+async function cacheFetch(key, maxSeconds, url, opts) {
   let cached = localStorage.getItem(key)
   if (cached) {
     cached = JSON.parse(cached)
@@ -77,16 +77,15 @@ function cacheFetch(key, maxSeconds, url, opts) {
     return Promise.resolve(cached.d)
   }
 
-  return fetch(url, opts).
-    then(res => res.json()).
-    then(data => {
-      localStorage.setItem(key, JSON.stringify({
-        t: Date.now(),
-        d: data,
-      }))
+  const res = await fetch(url, opts)
+  const data = await res.json()
 
-      return data
-    })
+  localStorage.setItem(key, JSON.stringify({
+    t: Date.now(),
+    d: data,
+  }))
+
+  return data
 }
 
 function setupForm(form, opts) {
@@ -109,28 +108,39 @@ function setupForm(form, opts) {
 
   form.querySelector('[data-post-name=Age]').value = -45
 
-  let submit = data => {
-    return fetch(opts.url, {
+  let submit = async data => {
+    var res = null
+
+    try {
+      res = await fetch(opts.url, {
         method: 'POST',
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(data),
-      }).
-      then(res => res.json()).
-      then(res => {
-        // console.log('res', res)
-        let status = res.status
-        if (status == 'OK') {
-          opts.onOK()
-        } else if (status == 'REDIRECT') {
-          opts.onRedirect(res.output.redirectLink)
-        } else if (status == 'ERROR') {
-          opts.onError(res.output)
-        } else {
-          opts.onError('malbona respondo')
-        }
       })
+    } catch (e) {
+      opts.onError('e'+e)
+      return
+    }
+
+    if (!res.ok) {
+      opts.onError(`eraro de HTTP: ${httpStatus}`)
+      return
+    }
+
+    const json = await res.json()
+
+    let jsonStatus = json.status
+    if (jsonStatus == 'OK') {
+      opts.onOK()
+    } else if (jsonStatus == 'REDIRECT') {
+      opts.onRedirect(json.output.redirectLink)
+    } else if (jsonStatus == 'ERROR') {
+      opts.onError(json.output)
+    } else {
+      opts.onError('malbona respondo')
+    }
   }
 
   let fakeSubmit = data => {
@@ -183,6 +193,8 @@ function setupForm(form, opts) {
   })
 
   opts.onError = opts.onError || (res => {
+    console.log('eraro', res)
+
     if (msgWorking) {
       msgWorking.style.display = 'none'
     }
@@ -219,8 +231,6 @@ function setupForm(form, opts) {
       if (!f.validity.valid) {
         opts.onInvalid()
         return
-      } else {
-        opts.onValid()
       }
 
       let [k, v] = [f.getAttribute('data-post-name'), f.value]
@@ -239,87 +249,6 @@ document.addEventListener('DOMContentLoaded', () => {
   setupMenu()
 
   {
-    let ca = document.querySelector('.calendar')
-    if (ca) {
-      let tmpEve = ca.querySelector('#tmp-event').content
-
-      for (let i of events) {
-        let date = new Date(i.date)
-        let month = date.getMonth()
-
-        let lin = tmpEve.cloneNode(true)
-        lin.querySelector('.time').setAttribute("datetime", date.toISOString())
-        lin.querySelector('.month').textContent = months[month]
-        lin.querySelector('.day').textContent = date.getDate()
-        lin.querySelector('.title').textContent = i.title
-        lin.querySelector('.place').textContent = i.place
-        // lin.querySelector('.text').innerHTML = i.text
-        lin.querySelector('.link').href = i.url
-        ca.append(lin)
-      }
-    }
-  }
-
-  {
-    let es = document.querySelector('#eventoservo')
-    if (es) {
-      let tmp = es.querySelector('#tmp-row').content
-      let list = es.querySelector('.list')
-
-      let body = JSON.stringify({
-        'API_KEY': KEYS['event'],
-        'PageId': '1',
-      })
-
-      let lastMonth = -1
-
-      let renderErr = (err) => {
-        let p = document.createElement('p')
-        p.textContent = err
-        list.replaceChildren(p)
-      }
-
-      let render = (data) => {
-        list.replaceChildren()
-
-        for (let i of data.output.data) {
-          let date = new Date(i.date)
-          let month = date.getMonth()
-
-          if (lastMonth != month) {
-            lastMonth = month
-            let h2 = document.createElement('h2')
-            h2.textContent = months[month] + " " + date.getFullYear()
-            list.append(h2)
-          }
-
-          let lin = tmp.cloneNode(true)
-          lin.querySelector('.time').setAttribute("datetime", date.toISOString())
-          lin.querySelector('.day').textContent = date.getDate()
-          // lin.querySelector('.month').textContent = months[date.getMonth()]
-          // lin.querySelector('.year').textContent = date.getYear()
-          lin.querySelector('.title').textContent = i.title
-          lin.querySelector('.place').textContent = i.location
-          lin.querySelector('.link').href = 'https://eventaservo.org/e/' + i.eventaServoKey
-          list.append(lin)
-        }
-      }
-
-      cacheFetch('events', 300, URL, {
-        method: 'POST', headers: {
-          'Content-Type': 'application/json',
-        }, body
-      }).
-      then(data => {
-        render(data)
-      }).
-      catch(e => {
-        renderErr(e)
-      })
-    }
-  }
-
-  {
     let form = document.querySelector('#formContactUs')
     if (form) {
       setupForm(form, {
@@ -331,27 +260,27 @@ document.addEventListener('DOMContentLoaded', () => {
   {
     let form = document.querySelector('#formRegister')
     if (form) {
-      const listID ='HAX30TC7N2'
+      // const listID ='HAX30TC7N2'
 
-      let body = JSON.stringify({
-        API_KEY:	KEYS['anspec'],
-        KeyList:	listID,
-      })
+      // let body = JSON.stringify({
+      //   API_KEY:	KEYS['anspec'],
+      //   KeyList:	listID,
+      // })
 
-      cacheFetch('memberships', 300, URL, {
-        method: 'POST', headers: {
-          'Content-Type': 'application/json',
-        }, body }).
-      then(data => {
-        let select = form.querySelector('#formRegister_MemberTypeId')
-        let types = data.output[listID]
-        for (let i of types) {
-          let option = document.createElement('option')
-          option.textContent = i.name
-          option.value = i.value
-          select.append(option)
-        }
-      })
+      // cacheFetch('memberships', 300, URL, {
+      //   method: 'POST', headers: {
+      //     'Content-Type': 'application/json',
+      //   }, body }).
+      // then(data => {
+      //   let select = form.querySelector('#formRegister_MemberTypeId')
+      //   let types = data.output[listID]
+      //   for (let i of types) {
+      //     let option = document.createElement('option')
+      //     option.textContent = i.name
+      //     option.value = i.value
+      //     select.append(option)
+      //   }
+      // })
 
       setupForm(form, {
         key: KEYS['aniĝ'],

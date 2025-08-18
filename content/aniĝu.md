@@ -71,6 +71,8 @@ Via kotizo validos ĝis la venonta 31-a de decembro.
         <div class="cell-body">
           <select id="formRegister_MemberTypeId" data-post-name="MemberTypeId" data-get-api-key="HAX30TC7N2" required>
             <option value="">Elektu...</option>
+            <option value="1">Ordinara: £15</option>
+            <option value="5">Fora (pli ol 40 km de CHX): £9</option>
           </select>
         </div>
       </div>
