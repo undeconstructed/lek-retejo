@@ -48,7 +48,7 @@ We also have a ["Londona Esperanto-Klubo" page](https://www.facebook.com/groups/
 
 **Bonvenon!** La Londona Esperanto-Klubo (LEK) kutime kunvenas ĉeeste en Highbury la duan vendredon de ĉiu monato kaj virtuale, per la retprogramo Zoom, la aliajn vendredojn. Ni okazigas ankaŭ aliajn eventojn de tempo al tempo. Trovu la plej ĝisdatigitan programon en nia [paĝo de eventoj](eventoj).
 
-Nia kunvenejo troviĝas ĉe Highbury View, 89 Ronalds Road, London, N5 1XQ. Vidu [mapon](https://goo.gl/maps/XyiKwLQxoYidtWvS9) por ekscii kiel atingi la kunvenejon de la metrostacio Highbury & Islington. Temas pri pli-malpli 10-minuta piedirado. Atentu, ke **por eniri la kunvenejon, oni bezonas enirkodon**: [kontaktu nin](kontaktu) por havi ĝin se vi intencas ĉeesti.
+Nia kunvenejo troviĝas en Highbury. Vidu [mapon](https://goo.gl/maps/XyiKwLQxoYidtWvS9) por ekscii kiel atingi la kunvenejon de la metrostacio Highbury & Islington. Temas pri pli-malpli 10-minuta piedirado. Atentu, ke **por eniri la kunvenejon, oni bezonas enirkodon**: [kontaktu nin](kontaktu) por havi ĝin se vi intencas ĉeesti.
 
 Ni ankaŭ strebas registri la prelegon kaj la postan demand/diskut-sesion. Vizitu [nian jutuban kanalon](https://www.youtube.com/channel/UCiN6RS-t5RDEKZy2ThCNnDg/videos) por vidi "LEK sur ekrano".
   {{</ lang >}}
@@ -57,7 +57,7 @@ Ni ankaŭ strebas registri la prelegon kaj la postan demand/diskut-sesion. Vizit
 
 **Do you want to practise your Esperanto?** The London Esperanto Club meets on the 2nd Friday of every month in Highbury and online (Zoom) the other Fridays. You will find the list of our future meetings on our [events page](eventoj). Our meetings are held in Esperanto but you're more than welcome to come if you're still learning the language. Just [let us know](kontaktu) in advance and we will make sure that someone is here to help.
 
-Our meeting place is located at Highbury View, 89 Ronalds Road, London, N5 1XQ. See [this map](https://goo.gl/maps/XyiKwLQxoYidtWvS9) to know how to reach the meeting place from the Highbury & Islington tube station. It is approximately a 10-minute walk. Be aware that **to enter the meeting place, you will need an entry code** - we'll let you know it when you tell us that you want to come.
+Our meeting place is located in Highbury. See [this map](https://goo.gl/maps/XyiKwLQxoYidtWvS9) to know how to reach the meeting place from the Highbury & Islington tube station. It is approximately a 10-minute walk. Be aware that **to enter the meeting place, you will need an entry code** - we'll let you know it when you tell us that you want to come.
 
 We also try to record the presentations and following question/discussion sessions. Visit [our youtube channel](https://www.youtube.com/channel/UCiN6RS-t5RDEKZy2ThCNnDg/videos) to see "LEK on screen".
   {{</ lang >}}

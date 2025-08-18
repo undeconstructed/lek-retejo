@@ -11,6 +11,8 @@ weight: 40
 ## Kiam kaj kie
 
 Ni kutime kunvenas ĉeeste en Highbury la duan vendredon de ĉiu monato kaj virtuale, per la retprogramo Zoom, la aliajn vendredojn. Ni okazigas ankaŭ aliajn eventojn de tempo al tempo. Vi trovos ĉi-sube la plej ĝisdatigitan programon. Se vi bezonas pliajn informojn, bv kontaktu nin.
+
+Pliaj eventoj en Londono eble troveblos en [Eventa Servo](https://eventaservo.org/europo/britio/londono).
   {{</ lang >}}
   {{< lang en >}}
 ## When and where

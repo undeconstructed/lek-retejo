@@ -12,6 +12,8 @@ outputs: [ "html", "rss" ]
 ## Kiam kaj kie
 
 Ni kutime kunvenas ĉeeste en Highbury la duan vendredon de ĉiu monato en Highbury kaj virtuale (per Zoom), la aliajn vendredojn. Ni okazigas ankaŭ aliajn eventojn de tempo al tempo. Vi trovos ĉi-sube la plej ĝisdatigitan programon. Se vi bezonas pliajn informojn, bv [kontaktu nin](../kontaktu).
+
+Pliaj eventoj en Londono eble troveblos en [Eventa Servo](https://eventaservo.org/europo/britio/londono).
   {{</ lang >}}
   {{< lang en >}}
 ## When and where

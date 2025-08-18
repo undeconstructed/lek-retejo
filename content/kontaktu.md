@@ -6,6 +6,8 @@ menu: main
 
 # Kontaku nin
 
+Bonvolu kontaktu nin rete pere de ĉi tiu formularo - la klubo ne havas propran adreson por ricevi paperan poŝŧon. Se vi volas sendi ion, ni petas ke vi do kontaktu nin unue ĉi tiel por aranĝi.
+
 <div class="form" id="contactform">
   <form id="formContactUs">
     <input type="hidden" id="formContactUs_Age" data-post-name="Age" />

@@ -21,8 +21,8 @@ Note that it's not for complete beginners so there is a language test you have t
 
 ## How does it work?
 
-**1** The sessions are done through Skype so if you don't have it already on your computer/tablet/smartphone, download it from this page  
-https://www.skype.com/en/get-skype/  
+**1** The sessions are done through Zoom so if you don't have it already on your computer/tablet/smartphone, download it from this page  
+https://zoom.us/download
 
 **2** Register ("Registriĝi") on Edukado.net:  
 https://edukado.net/ensaluti  
@@ -37,7 +37,7 @@ https://edukado.net/klerigejo/14?m=superrigardo
 You will see a list containing five tests but you only need to do the first two:
 
 1. Unuaj paŝoj, klarigo
-2. Lingvaj testoj – solvu por fariĝi NEVO /NEVINO
+2. Lingvaj testoj – solvu por fariĝi NEVO/NEVINO
 
 You need to click on the first one, do it and then come back to the [Miaj studoj](https://edukado.net/klerigejo/14?m=superrigardo) page and do the 2nd one. For each test there are some documents to read which might or might not be useful for the test itself.
 

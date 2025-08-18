@@ -6,9 +6,9 @@ menu: main
 
 # Pri la klubo
 
-## Estraro
+## Komitato
 
-La nuna estraro, por la jaro komencanta Marto 2025, estas:
+La nunaj komitatanoj, por la jaro komencanta Marto 2025, estas:
 
 <table class="tablo-estraro">
   <tbody>
@@ -34,7 +34,7 @@ La nuna estraro, por la jaro komencanta Marto 2025, estas:
     </tr>
     <tr>
       <th>Komitatanoj</th>
-      <td>Alexander Hu, Antony Rawlison</td>
+      <td>Alexander Hu, Antony Rawlinson</td>
     </tr>
   </tbody>
 </table>
@@ -55,7 +55,7 @@ La klubo ankaŭ organizis en Londono du mondajn kongresojn de parolantoj de Espe
 
 La detala historio de la klubo ĝis 1978 estas priskribita en la libro *[Londono vokas](https://katalogo.uea.org/katalogo.php?inf=1550)* de Harry Holmes.
 
-Lastatempaj estraroj konsistis el:
+Lastatempaj komitatoj konsistis el:
 
 <table class="tablo-estraro-pasinta">
   <thead>
@@ -77,7 +77,7 @@ Lastatempaj estraroj konsistis el:
       <td><a href="https://eo.wikipedia.org/wiki/Renato_Corsetti">Renato Corsetti</a></td>
       <td>Arturo Prent</td>
       <td>Anica Page</td>
-      <td>Terry Page, Antony Rawlison, Phil Housley</td>
+      <td>Terry Page, Antony Rawlinson, Phil Housley</td>
     </tr>
     <tr>
       <td>2022</td>
@@ -86,7 +86,7 @@ Lastatempaj estraroj konsistis el:
       <td><a href="https://eo.wikipedia.org/wiki/Renato_Corsetti">Renato Corsetti</a></td>
       <td>Arturo Prent</td>
       <td>Anthony Bodineau</td>
-      <td>Terry Page, Anica Page, Alexander Ord, Antony Rawlison, Phil Housley</td>
+      <td>Terry Page, Anica Page, Alexander Ord, Antony Rawlinson, Phil Housley</td>
     </tr>
     <tr>
       <td>2023</td>
@@ -113,15 +113,15 @@ Lastatempaj estraroj konsistis el:
       <td>Anthony Bodineau</td>
       <td>Arturo Prent</td>
       <td>Anthony Bodineau</td>
-      <td>Alexander Hu &amp; Antony Rawlison</td>
+      <td>Alexander Hu, Antony Rawlinson</td>
     </tr>-->
   </tbody>
 </table>
 
 ## La klubo nun
 
-Io okazas.
+Ni atendas volontulojn por ĝisdatigi ĉi tion!
 
-## Nia planoj
+## Niaj celoj
 
-Estas bonaj. Ni skribu pri ili.
+Dum ni daŭrigas nian longdaŭran programon de eventoj kaj prelegoj, ni nun fokusas ankaŭ pri propagando pri la graveco kaj homeco de Esperanto.

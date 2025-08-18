@@ -12,14 +12,14 @@ menu: main
 
 Ni amas [kursaro.net](http://kursaro.net). Ĉi tiujn kursojn komencis ano de la Londona klubo, kaj estas instruataj de lertaj esperantistoj, per interreto, al homoj trans la mondo. Se vi volas lerni de instruisto, kun grupaj lecionoj, ĉi tio estas por vi.
 
-If you are progressing, then perhaps you would like to speak with teachers from the around the world, who can help you with both instruction and an opportunity to speak in a low-pressure environment. You are looking for [Ekparolu!](../ekparolu)
+Se vi progresas, eble vi ŝatus paroli kun instruistoj de ĉirkaŭ la mondo, kiuj povas helpi vin per kaj instrukcio kaj oportuno paroli en medio de malalta premo. Vi serĉas [Ekparolu!](../ekparolu)
   {{< /lang >}}
   {{< lang en >}}
 ## Courses
 
 We love [kursaro.net](http://kursaro.net). These courses were started by a member of the London club, and are taught be skilled esperantists, over the Internet, to people across the world. If you want to learn from a teacher, with group lessions, this is for you.
 
-Se vi progresas, eble vi ŝatus paroli kun instruistoj de ĉirkaŭ la mondo, kiuj povas helpi vin per kaj instrukcio kaj oportuno paroli en medio de malalta premo. Vi serĉas [Ekparolu!](../ekparolu)
+If you are progressing, then perhaps you would like to speak with teachers from the around the world, who can help you with both instruction and an opportunity to speak in a low-pressure environment. You are looking for [Ekparolu!](../ekparolu)
   {{< /lang >}}
 {{< /twolang >}}
 
@@ -31,7 +31,7 @@ Vi povas komenci tre rapide per [Esperanto en 17 minutoj](https://undeconstructe
 
 Aŭ iru pli profunden per [Esperanto in 12 days](https://learn.esperanto.com/en).
 
-Troviĝas bela kurso kun originala rakonto je [Lernu.net](https://lernu.net/).
+Troviĝas bela kurso kun originala rakonto ĉe [Lernu.net](https://lernu.net/).
 
 Aŭ por multe de ekzercado jen [Duolingo](https://www.duolingo.com/course/eo/en/Learn-Esperanto). Esperanto estas unu el malmultaj lingvoj kiujn oni povas lerni bone per Duolingo, ĉar la konsekvenceco de la lingvo permesas ke oni lernu sen multaj klarigoj. Sed, bonvolu ne pensi ke ni ĝenerale rekomendas Duolingon kiel lernilon.
   {{< /lang >}}

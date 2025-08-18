@@ -6,9 +6,7 @@ menu: main
 
 # Klubejo
 
-La surloka klubejo ekzistas nur dum kunvenoj, ĝi estas en Highbury ...
-
-Ĉi tiu paĝo estas do pri la virtuala klubejo, en kiu ... ni montras niajn artaĵojn? Ni organizas nian bibliotekon? Ni planas eventojn?
+La surloka klubejo ekzistas nur dum kunvenoj. Bedaŭrinde, tio signifas ke ni ne havas murojn kien fiksi fotojn, aŭ bretojn kien meti bibliotekon. Anstataŭe, ni havas ĉi tiun paĝon! Se klubano kreas ion kaj volas montri ĝin, ĉi tio eble estas la loko.
 
 ## Fotoj
 
@@ -57,4 +55,4 @@ La surloka klubejo ekzistas nur dum kunvenoj, ĝi estas en Highbury ...
 * [Highbury (vizito de Panĉjo el Ĉinujo) - 30an de julio 2019](https://photos.app.goo.gl/aQeHj8ViNuRys2D36)
 * [Highbury (lingva seminario de John Wells) - 25an de junio 2019](https://photos.app.goo.gl/YVQ7wT7GZJSStnkL8)
 * [Highbury (prelego de Rico) - 11an de junio 2019](https://photos.app.goo.gl/zWHQuN7sSuzBr9759)
-* [Novjara festo 2003 (100-jariĝo de la klubo!)]()
+* [Novjara festo 2003 (100-jariĝo de la klubo!)](https://www.phon.ucl.ac.uk/home/wells/lek/0301_lekpix.htm)

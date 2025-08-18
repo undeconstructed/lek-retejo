@@ -38,7 +38,6 @@ Esperanto is not the tool of any nation, national group, political party or soci
 
 Esperanto is not intended to replace anyone’s native language, it simply serves as a lingua franca, a language of communication. Esperanto speakers are regrouped in many associations. The biggest association for Esperanto speakers is UEA (the creator of this website). The aim of UEA is to promote the Esperanto language as a tool for a better society (see the <a href="http://www.uea.org/teko/praga_manifesto/pm_angla">Prague Manifesto</a>) and to organize events and cultural life for the community.
 
-
 ## The history of Esperanto
 
 Esperanto was created by <a href="https://en.wikipedia.org/wiki/L._L._Zamenhof">Ludwig L. Zamenhof</a>, a Polish doctor who lived in a city where the different language communities always misunderstood and fought each other. That is why he created Esperanto as a language they could learn quickly in order to communicate better. He created it in 1887, a time when few people traveled or spoke with people in other countries. The first Esperanto Congress took place in the French town Boulogne-sur-mer in 1905. Already then, more than 600 people from more than 20 countries came together.
