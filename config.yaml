@@ -1,4 +1,4 @@
-baseURL: https://undeconstructed.github.io/lek-retejo/
+baseURL: /
 defaultContentLanguage: eo
 title: LEK
 disableKinds: [ "taxonomy", "sitemap" ]
