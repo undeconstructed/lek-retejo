@@ -27,7 +27,7 @@ If you are progressing, then perhaps you would like to speak with teachers from 
   {{< lang eo >}}
 ## Memlernado
 
-Vi povas komenci tre rapide per [Esperanto en 17 minutoj](https://undeconstructed.github.io/leciono1/). Ĉi tiu unuopa paĝo enkondukas la bazajn partojn de Esperanto tre rapide.
+Vi povas komenci tre rapide per [Esperanto en 17 minutoj](https://unua.leciono.org/). Ĉi tiu unuopa paĝo enkondukas la bazajn partojn de Esperanto tre rapide.
 
 Aŭ iru pli profunden per [Esperanto in 12 days](https://learn.esperanto.com/en).
 
@@ -38,7 +38,7 @@ Aŭ por multe de ekzercado jen [Duolingo](https://www.duolingo.com/course/eo/en/
   {{< lang en >}}
 ## Self learning
 
-You can start very quickly with [Esperanto en 17 minutoj](https://undeconstructed.github.io/leciono1/). This single page introduces the basic parts of Esperanto very quickly.
+You can start very quickly with [Esperanto en 17 minutoj](https://unua.leciono.org/). This single page introduces the basic parts of Esperanto very quickly.
 
 Or you can do deeper with [Esperanto in 12 days](https://learn.esperanto.com/en).
 
