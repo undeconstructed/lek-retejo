@@ -4,7 +4,16 @@
 
 {{- define "main" }}
 <main aria-role="main">
-  {{ .Render "post" }}
+  <article class="post">
+    <header>
+      <h2>{{ .Title }}</h2>
+      <div class="post-meta">
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"><span class="day">{{ .Date.Day }}</span> <span class="month">{{ index $.Site.Data.monatoj (printf "%d" .Date.Month) }}</span> <span class="year">{{ .Date.Year }}</span> <span class="time">{{ .Date.Format "15:04" }}</span></time>
+        <span class="by">afiŝis {{ .Params.author }}</span>
+      </div>
+    </header>
+    {{ .Content }}
+  </article>
 
   <ul class="pagination">
     {{ with .NextInSection }}
@@ -12,7 +21,7 @@
     {{ else }}
       <li class="page-item disabled"><a class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
     {{ end }}
-    <li class="page-item"><a class="page-link" href="{{ .Parent.RelPermalink }}">Reen</a></li>
+    <li class="page-item"><a class="page-link" href="{{ .Parent.RelPermalink }}">Ĉiuj novaĵoj</a></li>
     {{ with .PrevInSection }}
       <li class="page-item"><a class="page-link" href="{{ .RelPermalink }}" aria-label="Next">&raquo;</a></li>
     {{ else }}

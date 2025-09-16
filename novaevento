@@ -1,0 +1,34 @@
+#!/bin/bash
+
+read -e -p "Nomo: " nomo
+if test -z "$nomo"; then exit 1; fi
+
+etikedo0=$(echo ${nomo} | tr -s " [:upper:]ĈĜĤĴŜŬ" "-[:lower:]ĉĝĥĵŝŭ" | tr -dc "[:alnum:]ĉĝĥĵŝŭ-")
+read -e -p "Etikedo: " -i "${etikedo0}" etikedo
+if test -z "$etikedo"; then etikedo=${etikedo0}; fi
+
+read -e -p "Loko (Highbury): " loko
+if test -z "$loko"; then loko="Highbury"; fi
+
+read -e -p "Dato (YYY-MM-DD): " dato
+if test -z "$dato"; then exit 1; fi
+
+read -e -p "Horo (HH:MM): " -i "19:00" horo
+if test -z "$horo"; then exit 1; fi
+
+dosiero="content/eventoj/${dato}-${etikedo}.md"
+
+cat << xxx > ${dosiero}
+---
+title: '${nomo}'
+eventdato: ${dato}T${horo}:00+00:00
+loko: ${loko}
+menu:
+  main:
+    parent: "Eventoj"
+---
+
+
+xxx
+
+vi "+normal G$" +startinsert ${dosiero}

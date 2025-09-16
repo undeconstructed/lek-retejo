@@ -7,8 +7,25 @@
   {{ .Content }}
   {{ $paginator := .Paginator 5 }}
   {{ range $paginator.Pages }}
-     {{ .Render "post" }}
+    <article class="post">
+      <header>
+        <h2>{{ .Title }}</h2>
+        <a class="box-link" href="{{ .RelPermalink }}">
+          <div class="post-meta">
+            <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"><span class="day">{{ .Date.Day }}</span> <span class="month">{{ index $.Site.Data.monatoj (printf "%d" .Date.Month) }}</span> <span class="year">{{ .Date.Year }}</span> <span class="time">{{ .Date.Format "15:04" }}</span></time>
+            <span class="by">afiŝis {{ .Params.author }}</span>
+          </div>
+        </a>
+      </header>
+      {{ .Summary }}
+      {{ if .Truncated }}
+        <footer>
+          <a href="{{ .RelPermalink }}"><nobr>Pli →</nobr></a>
+        </footer>
+      {{ end }}
+    </article>
   {{ end }}
+
   {{ template "_internal/pagination.html" . }}
 </main>
 {{ end }}

@@ -8,7 +8,7 @@
   <meta name="description" content="Londona Esperanto-Klubo">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#779734">
-  <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}/favicon.ico">
+  <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}/favicon.svg">
 
   {{ $styles := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.scss" . | css.Sass | resources.Minify | resources.Fingerprint -}}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
@@ -19,6 +19,19 @@
 
   {{ $mainJS := resources.Get "main.js" | resources.ExecuteAsTemplate "main.js" . | resources.Fingerprint -}}
   <script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}"></script>
+
+  <meta property="og:type" content="website">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:creator" content="@undeconstructed">
+  {{ block "kunhavi" . }}
+    <meta property="og:url" content="https://londonaesperantoklubo.com/">
+    <meta property="og:title" content="La Londona Esperanto-Klubo">
+    <meta property="og:description" content="La Londona Esperanto-Klubo (LEK), fondita en 1903, estas Esperanto-asocio en Londono (Britujo).">
+    <meta property="og:image" content="img/header.jpg">
+    <meta property="og:image:height" content="261">
+
+    <meta property="twitter:image" content="img/header.jpg">
+  {{ end }}
 </head>
 
 <body>

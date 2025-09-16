@@ -5,13 +5,15 @@ menu:
     parent: "Pri"
 ---
 
+# Esperanto
+
 Esperanto was created with the aim to be a fair communication tool
+
+It is the most appropriate language to eliminate language barriers and to allow international communication for everybody on a basis of mutual respect and understanding. The aim of Esperanto is not to replace the other languages but to be a "bridge" between different language communities.
 
 <div class="video">
     <iframe src="https://www.youtube.com/embed/0KA-19zJetM" allowfullscreen></iframe>
 </div>
-
-It is the most appropriate language to eliminate language barriers and to allow international communication for everybody on a basis of mutual respect and understanding. The aim of Esperanto is not to replace the other languages but to be a "bridge" between different language communities.
 
 ## Easy and rich
 

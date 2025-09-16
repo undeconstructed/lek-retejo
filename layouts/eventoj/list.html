@@ -1,55 +1,72 @@
 {{ define "title" }}
-  {{ .Site.Title }} - {{ .Title }}
+{{ .Site.Title }} - {{ .Title }}
 {{ end }}
 
 {{ define "main" }}
 <main aria-role="main">
   {{ .Content }}
   <div class="calendar">
-  {{ $pages := (sort .Pages "File.Path").Reverse }}
-  {{ range (.Paginate $pages 10).Pages }}
-    {{ $t := .Param "eventdato" | time }}
-    <div class="event">
-      <div class="event-meta">
-        <time class="time"><span class="month">{{ index $.Site.Data.monatoj (printf "%d" $t.Month) }}</span> <span class="day">{{ $t.Day }}</span></time>
-      </div>
-      <div class="event-line">
-        <h3><span class="title">{{ .Title }}</span></h3>
-        <p class="place">Ĉe: {{ .Param "loko" }} - {{ .Summary }}</p>
-        <p><a class="link" href="{{ .RelPermalink }}"><nobr>Pli →</nobr></a></p>
-      </div>
-    </div>
-  {{ end }}
-</div>
+    {{ $titolo := 0 }}
+    {{ $pages := (sort .Pages "File.Path").Reverse }}
+    {{ range (.Paginate $pages 10).Pages }}
+      {{ $t := .Param "eventdato" | time }}
+      {{ $monato := index $.Site.Data.monatoj (printf "%d" $t.Month) }}
+      {{ $novaTitolo := fmt.Printf "%s %d" $monato $t.Year }}
+      {{ if ne $titolo $novaTitolo}}<h1>En {{ $novaTitolo }}</h1>{{ end }}
+      {{ $titolo = $novaTitolo }}
+      <a class="box-link" href="{{ .RelPermalink }}">
+        <div class="event">
+          <div class="event-meta">
+            <time class="time"><span class="day">{{ $t.Day }}</span></time>
+          </div>
+          <div class="event-line">
+            <h3><span class="title">{{ .Title }}</span></h3>
+            {{ .Summary }}
+          </div>
+          <div class="event-ikono">
+            {{ if eq (.Param "loko") "Zoom" }}
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-tv-minimal-icon lucide-tv-minimal"><path d="M7 21h10"/><rect width="20" height="14" x="2" y="3" rx="2"/></svg>
+            {{ else }}
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+            {{ end }}
+          </div>
+        </div>
+      </a>
+    {{ end }}
+  </div>
+
+  {{ template "_internal/pagination.html" . }}
 </main>
 {{ end }}
 
 {{/*
-per ĉi tio oni povas doni la informon a skipto por uzi ĝin pli kreeme.
+per ĉi tio oni povas doni la informon al skripto por uzi ĝin pli kreeme.
 <script>
   const events = [
-    {{ range (.Paginate $pages 10).Pages }}
-      {
-        "title": {{ .Title }},
-        "date": {{ .Param "eventdato" }},
-        "place": {{ .Param "loko" }},
-        "url": {{ .RelPermalink }},
-        "text": {{ .Summary }},
-      },
-    {{ end }}
+    {{ range(.Paginate $pages 10).Pages }}
+  {
+    "title": { { .Title } },
+    "date": { { .Param "eventdato" } },
+    "place": { { .Param "loko" } },
+    "url": { { .RelPermalink } },
+    "text": { { .Summary } },
+  },
+  { { end } }
   ]
 </script>
-  <template id="tmp-event">
-    <div class="event">
-      <div class="event-meta">
-        <time class="time"><span class="month"></span> <span class="day"></span></time>
-      </div>
-      <div class="event-line">
-        <h3><span class="title"></span></h3>
-        <p class="place"></p>
-        <p><a class="link"><nobr>Pli →</nobr></a></p>
-      </div>
+<template id="tmp-event">
+  <div class="event">
+    <div class="event-meta">
+      <time class="time"><span class="month"></span> <span class="day"></span></time>
     </div>
-  </template>
+    <div class="event-line">
+      <h3><span class="title"></span></h3>
+      <p class="place"></p>
+      <p><a class="link">
+          <nobr>Pli →</nobr>
+        </a></p>
+    </div>
+  </div>
+</template>
 </div>
 */}}

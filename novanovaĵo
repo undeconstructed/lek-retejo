@@ -1,0 +1,37 @@
+#!/bin/bash -e
+
+read -e -p "Titolo: " titolo
+if test -z "$titolo"; then exit 1; fi
+
+etikedo0=$(echo ${titolo} | tr -s " [:upper:]ĈĜĤĴŜŬ" "-[:lower:]ĉĝĥĵŝŭ" | tr -dc "[:alnum:]ĉĝĥĵŝŭ-")
+read -e -p "Etikedo: " -i "${etikedo0}" etikedo
+if test -z "$etikedo"; then exit 1; fi
+
+read -e -p "Aŭtoro: " auxtoro
+if test -z "$auxtoro"; then exit 1; fi
+
+tempo0=$(date -Is)
+read -e -p "Tempo: " -i "${tempo0}" tempo
+if test -z "$tempo"; then exit 1; fi
+
+tempo1=$(date -d ${tempo} -Iseconds)
+dato=$(date -d ${tempo} -Idate)
+
+dosiero="content/novaĵoj/${dato}-${etikedo}.md"
+
+cat << xxx > ${dosiero}
+---
+title: '${titolo}'
+date: ${tempo1}
+author: ${auxtoro}
+menu:
+  main:
+    parent: "Novaĵoj"
+---
+
+<!--more-->
+
+
+xxx
+
+${EDITOR:-vi} "+normal G$" +startinsert ${dosiero}

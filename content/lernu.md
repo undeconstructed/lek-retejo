@@ -4,7 +4,14 @@ weight: 50
 menu: main
 ---
 
-# Lernu / Learn
+{{< twolang >}}
+  {{< lang eo >}}
+# Lernu Esperanton
+  {{< /lang >}}
+  {{< lang en >}}
+# Learn Esperanto
+  {{< /lang >}}
+{{< /twolang >}}
 
 {{< twolang >}}
   {{< lang eo >}}
@@ -38,7 +45,7 @@ Aŭ por multe de ekzercado jen [Duolingo](https://www.duolingo.com/course/eo/en/
   {{< lang en >}}
 ## Self learning
 
-You can start very quickly with [Esperanto en 17 minutoj](https://unua.leciono.org/). This single page introduces the basic parts of Esperanto very quickly.
+You can start very quickly with [Esperanto in 17 minutes](https://unua.leciono.org/). This single page introduces the basic parts of Esperanto very quickly.
 
 Or you can do deeper with [Esperanto in 12 days](https://learn.esperanto.com/en).
 

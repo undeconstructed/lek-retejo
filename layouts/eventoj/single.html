@@ -2,12 +2,42 @@
   LEK prezentas: {{ .Title }}
 {{ end }}
 
+{{ define "kunhavi" }}
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:title" content="LEK prezentas: {{ .Title }}">
+  <meta property="og:description" content="{{ .Summary }}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}img/header.jpg">
+  <meta property="og:image:height" content="261">
+
+  <meta property="twitter:image" content="{{ .Site.BaseURL }}img/header.jpg">
+{{ end }}
+
 {{- define "main" }}
 <main aria-role="main">
-  <h2>LEK prezentas: {{ .Title }}</h2>
-  <p>Je: {{ (.Param "eventdato" | time).Format "2006-01-02T15:04:05Z07:00" }}</p>
-  <p>Ĉe: {{ .Param "loko" }}</p>
-  {{ .Content }}
-  <p><a href="{{ (.Site.GetPage "eventoj").RelPermalink }}">Pli da eventoj.</a></p>
+  <article class="post">
+    <header>
+      <h2>LEK prezentas: {{ .Title }}</h2>
+      <div class="post-meta">
+        {{ $d := (.Param "eventdato" | time)}}
+        <time datetime="{{ $d.Format "2006-01-02T15:04:05Z07:00" }}"><span class="day">{{ $d.Day }}</span> <span class="month">{{ index $.Site.Data.monatoj (printf "%d" $d.Month) }}</span> <span class="year">{{ $d.Year }}</span> <span class="time">{{ $d.Format "15:04" }}</span></time>
+      </div>
+    </header>
+
+    {{ .Content }}
+  </article>
+
+  <ul class="pagination">
+    {{ with .NextInSection }}
+      <li class="page-item"><a class="page-link" href="{{ .RelPermalink }}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+    {{ else }}
+      <li class="page-item disabled"><a class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+    {{ end }}
+    <li class="page-item"><a class="page-link" href="{{ .Parent.RelPermalink }}">Ĉiuj eventoj</a></li>
+    {{ with .PrevInSection }}
+      <li class="page-item"><a class="page-link" href="{{ .RelPermalink }}" aria-label="Next">&raquo;</a></li>
+    {{ else }}
+      <li class="page-item disabled"><a class="page-link" aria-label="Next">&raquo;</a></li>
+    {{ end }}
+  </ul>
 </main>
 {{- end }}

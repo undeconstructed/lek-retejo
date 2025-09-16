@@ -10,6 +10,7 @@ En la bulteno troveblas la programo de kunsidoj, novaĵoj kaj ĝeneralaj informo
 
 ## 2025
 
+* [LEK bulteno: septembro - oktobro 2025](/bultenoj/2025-09.pdf)
 * [LEK bulteno: julio - aŭgusto 2025](/bultenoj/2025-07.pdf)
 * [LEK bulteno: majo - junio 2025](/bultenoj/2025-05.pdf)
 * [LEK bulteno: marto - aprilo 2025](/bultenoj/2025-03.pdf)
