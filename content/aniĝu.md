@@ -96,7 +96,7 @@ Via kotizo validos ĝis la venonta 31-a de decembro.
     <div class="line">
       <div class="cell">
         <div class="cell-body checkbox">
-          <input type="checkbox" id="formRegister_Rules" required> <label class="font-weight-normal" for="formRegister_Rules">Per ĉi tio mi konfirmas, ke mi deziras (r)esti membro de Londona Esperanto-Klubo, kaj akceptas la <a href="/doc/lek_regularo.pdf">klubajn regulojn</a> (<a href="/doc/lek_regularo_libreto.pdf">presebla versio</a>).</label>
+          <input type="checkbox" id="formRegister_Rules" required> <label class="font-weight-normal" for="formRegister_Rules">Per ĉi tio mi konfirmas, ke mi deziras (r)esti membro de Londona Esperanto-Klubo, kaj akceptas la <a href="/dokumentoj/lek_regularo.pdf">klubajn regulojn</a> (<a href="/dokumentoj/lek_regularo_libreto.pdf">presebla versio</a>).</label>
         </div>
       </div>
     </div>

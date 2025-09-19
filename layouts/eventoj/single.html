@@ -11,7 +11,7 @@
 <main aria-role="main">
   <article class="post">
     <header>
-      <h2>LEK prezentas: {{ .Title }}</h2>
+      <h2>{{ .Title }}</h2>
       <div class="post-meta">
         {{ $d := (.Param "eventdato" | time) }}
         <time datetime="{{ $d.Format "2006-01-02T15:04:05Z07:00" }}"><span class="day">{{ $d.Day }}</span> <span class="month">{{ index $.Site.Data.monatoj (printf "%d" $d.Month) }}</span> <span class="year">{{ $d.Year }}</span> <span class="time">{{ $d.Format "15:04" }}</span></time>

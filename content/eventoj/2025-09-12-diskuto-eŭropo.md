@@ -8,3 +8,7 @@ menu:
 ---
 
 Terry Page gvidos, surloke en Highbury.
+
+<!--more-->
+
+Ni diskutis longe, pri kio estas Eŭropo, kio gravas pri ĝi, kaj kiel disvastigi ĝiajn bonajn trajtojn. [Fotoj de la okazo](https://photos.app.goo.gl/fVCrMpAgJogDuNp89).

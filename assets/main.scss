@@ -55,7 +55,6 @@
 
 body {
   background-color: white;
-  // background-image: url(img/star.svg);
   background-repeat: no-repeat;
   background-position: 100% 0%;
   background-size: auto;
@@ -72,7 +71,7 @@ body > header {
     text-align: center;
     font-size: 400%;
     background-color: var(--egreen);
-    background-image: url(img/header.jpg);
+    background-image: url(bildoj/paĝkapo.jpg);
     background-blend-mode: darken;
     background-size: cover;
     background-position: 50% 50%;
@@ -88,13 +87,11 @@ body > header {
 }
 
 body > menu {
-  // width: 100%;
   max-width: var(--width);
   background: rgba(255,255,255,0.9);
   color: var(--egreen);
   padding: 0;
   margin: 0 auto 0 auto;
-  // border-radius: 2rem;
   transition: padding 0.5s ease-out;
   display: flex;
 
@@ -116,7 +113,6 @@ body > menu {
     flex-grow: 100;
 
     li {
-      // flex-grow: 1;
       display: block;
     }
 
@@ -137,7 +133,6 @@ body > menu {
     color: white;
     text-decoration: none;
     background-color: var(--egreen);
-    // background: rgba(0,153,0,0.8);
   }
   a:hover {
     color: white;
@@ -186,8 +181,6 @@ body.sticky {
       margin: 0 auto 0 auto;
     }
     .lek {
-      // max-width: 20em;
-      // transition: all 1s ease-out;
       background-color: var(--egreen);
       color: white;
     }
@@ -422,8 +415,6 @@ ul.pagination {
     h3 {
       font-weight: normal;
       font-size: 1.5em;
-      // font-family: "Anton", sans-serif;
-      // color: var(--egreen);
       margin-top: .5em;
     }
 
@@ -491,14 +482,6 @@ li p {
   float: right;
   border: 1px solid black;
 }
-
-// @media (min-width:84rem) {
-//   body > menu {
-//     .left, .right {
-//       display: none;
-//     }
-//   }
-// }
 
 @media (min-width:40rem) {
   .post {

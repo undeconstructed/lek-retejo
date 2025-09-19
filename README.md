@@ -1,12 +1,12 @@
-# lekret
+# Retejo por Londona Esperanto-Klubo
 
-## run
+## por ruli
 
 ```
 hugo server
 ```
 
-## build
+## por konstrui
 
 ```
 make site
