@@ -1,5 +1,6 @@
 ---
 title: Hejmo
+summary: La Londona Esperanto-Klubo, fondita en 1903, estas unu el la plej antikvaj Esperanto-kluboj en la mondo.
 weight: 1
 menu: main
 ---
@@ -29,14 +30,14 @@ menu: main
   {{< lang eo >}}
 ## Pri LEK
 
-La Londona Esperanto-Klubo (LEK), fondita en 1903, estas Esperanto-asocio en Londono (Britujo), kiu zorgas pri la disvastigo de Esperanto en Londono kaj organizas kulturajn eventojn port la komunumo parolanta Esperanton en Londono kaj ĉirkaŭ ĝi. [Pli →](pri)
+La Londona Esperanto-Klubo (LEK), fondita en 1903, estas Esperanto-asocio en Londono (Britujo), kiu zorgas pri la disvastigo de Esperanto en Londono kaj organizas kulturajn eventojn port la komunumo parolanta Esperanton en Londono kaj ĉirkaŭ ĝi. [Pli&nbsp;→](pri)
 
 Ni havas ankaŭ [paĝon "Londona Esperanto-Klubo"](https://www.facebook.com/groups/168574686510076) en Facebook!
   {{</ lang >}}
   {{< lang en >}}
 ## About LEK
 
-The London Esperanto Club (LEK), founded in 1903, is an Esperanto association in London (United Kingdom), which encourages the spread of Esperanto in London kaj organises cultural events for the community who speak Esperanto in London and around it. [More →](pri)
+The London Esperanto Club (LEK), founded in 1903, is an Esperanto association in London (United Kingdom), which encourages the spread of Esperanto in London kaj organises cultural events for the community who speak Esperanto in London and around it. [More&nbsp;→](pri)
 
 We also have a ["Londona Esperanto-Klubo" page](https://www.facebook.com/groups/168574686510076) in Facebook!
   {{</ lang >}}

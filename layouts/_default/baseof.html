@@ -3,35 +3,45 @@
 
 <head>
   <meta charset="utf-8">
-  <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+  <title>{{- block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
   <meta name="description" content="Londona Esperanto-Klubo">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#779734">
   <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}/favicon.svg">
 
-  {{ $styles := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.scss" . | css.Sass | resources.Minify | resources.Fingerprint -}}
+  {{- $styles := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.scss" . | css.Sass | resources.Minify | resources.Fingerprint -}}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
 
-  {{ range .AlternativeOutputFormats -}}
+  {{- range .AlternativeOutputFormats -}}
   <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
   {{- end }}
 
-  {{ $mainJS := resources.Get "main.js" | resources.ExecuteAsTemplate "main.js" . | resources.Fingerprint -}}
+  {{- $mainJS := resources.Get "main.js" | resources.ExecuteAsTemplate "main.js" . | resources.Fingerprint -}}
   <script src="{{ $mainJS.RelPermalink }}" integrity="{{ $mainJS.Data.Integrity }}"></script>
 
   <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ .Permalink }}">
+  {{- if .Param "kuntitolo" }}
+  <meta property="og:title" content="{{ .Param "kuntitolo" }}">
+  {{- else }}
+  <meta property="og:title" content="{{ block "kuntitolo" . }}{{ template "title" .Page }}{{ end }}">
+  {{- end }}
+  {{- if .Param "kunteksto" }}
+  <meta property="og:description" content="{{ .Param "kunteksto" }}">
+  {{- else }}
+  <meta property="og:description" content="{{ .Summary }}">
+  {{- end }}
+  {{- if .Param "kunbildo" }}
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Param "kunbildo" }}">
+  <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Param "kunbildo" }}">
+  {{- else }}
+  <meta property="og:image" content="{{ .Site.BaseURL }}img/kunhava.jpg">
+  <meta property="twitter:image" content="{{ .Site.BaseURL }}img/kunhava.jpg">
+  {{- end }}
+  <meta property="og:image:height" content="453">
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:creator" content="@undeconstructed">
-  {{ block "kunhavi" . }}
-    <meta property="og:url" content="https://londonaesperantoklubo.com/">
-    <meta property="og:title" content="La Londona Esperanto-Klubo">
-    <meta property="og:description" content="La Londona Esperanto-Klubo (LEK), fondita en 1903, estas Esperanto-asocio en Londono (Britujo).">
-    <meta property="og:image" content="img/header.jpg">
-    <meta property="og:image:height" content="261">
-
-    <meta property="twitter:image" content="img/header.jpg">
-  {{ end }}
 </head>
 
 <body>
@@ -46,13 +56,13 @@
       <li class="lek"><a href="{{ .Site.BaseURL }}">LEK</a></li>
       {{ $currentPage := . -}}
       {{- range .Site.Menus.main -}}
-        {{ $clazz := "" -}}
-        {{ if $currentPage.IsMenuCurrent "main" . }}{{ $clazz = "active" -}}{{ end -}}
-        {{ if .HasChildren -}}
-          {{ if $currentPage.HasMenuCurrent "main" . }}{{ $clazz = "active" -}}{{ end -}}
-        {{ else -}}
-        {{ end -}}
-        {{ if strings.Contains .Name "Kontaktu" }}
+        {{- $clazz := "" -}}
+        {{- if $currentPage.IsMenuCurrent "main" . }}{{ $clazz = "active" -}}{{ end -}}
+        {{- if .HasChildren -}}
+          {{- if $currentPage.HasMenuCurrent "main" . }}{{ $clazz = "active" -}}{{ end -}}
+        {{- else -}}
+        {{- end -}}
+        {{- if strings.Contains .Name "Kontaktu" -}}
           <li class="split"></li>
         {{ end -}}
         <li><a href="{{ .URL }}" class="{{ $clazz }}">{{ .Name }}</a></li>
@@ -62,9 +72,11 @@
     <div class="right">&gt;</div>
   </menu>
 
-  {{ block "main" . }}
-    default text
-  {{ end }}
+  <div class="enhavo">
+    {{ block "main" . }}
+      default text
+    {{ end }}
+  </div>
 
   <footer>
     Kopirajta de Londono-Esperanto Klubo, 2025

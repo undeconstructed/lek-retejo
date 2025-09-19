@@ -1,19 +1,19 @@
-{{ define "title" }}
+{{ define "title" -}}
 {{ .Site.Title }} - {{ .Title }}
-{{ end }}
+{{- end }}
 
 {{ define "main" }}
 <main aria-role="main">
   {{ .Content }}
   <div class="calendar">
-    {{ $titolo := 0 }}
-    {{ $pages := (sort .Pages "File.Path").Reverse }}
-    {{ range (.Paginate $pages 10).Pages }}
-      {{ $t := .Param "eventdato" | time }}
-      {{ $monato := index $.Site.Data.monatoj (printf "%d" $t.Month) }}
-      {{ $novaTitolo := fmt.Printf "%s %d" $monato $t.Year }}
-      {{ if ne $titolo $novaTitolo}}<h1>En {{ $novaTitolo }}</h1>{{ end }}
-      {{ $titolo = $novaTitolo }}
+    {{- $titolo := 0 }}
+    {{- $pages := (sort .Pages "File.Path").Reverse }}
+    {{- range (.Paginate $pages 10).Pages }}
+      {{- $t := .Param "eventdato" | time }}
+      {{- $monato := index $.Site.Data.monatoj (printf "%d" $t.Month) }}
+      {{- $novaTitolo := fmt.Printf "%s %d" $monato $t.Year }}
+      {{- if ne $titolo $novaTitolo}}<h1>En {{ $novaTitolo }}</h1>{{ end }}
+      {{- $titolo = $novaTitolo }}
       <a class="box-link" href="{{ .RelPermalink }}">
         <div class="event">
           <div class="event-meta">
@@ -24,11 +24,11 @@
             {{ .Summary }}
           </div>
           <div class="event-ikono">
-            {{ if eq (.Param "loko") "Zoom" }}
+            {{- if eq (.Param "loko") "Zoom" }}
               <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-tv-minimal-icon lucide-tv-minimal"><path d="M7 21h10"/><rect width="20" height="14" x="2" y="3" rx="2"/></svg>
-            {{ else }}
+            {{- else }}
               <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
-            {{ end }}
+            {{- end }}
           </div>
         </div>
       </a>

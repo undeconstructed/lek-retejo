@@ -1,5 +1,6 @@
 ---
 title: Lernu / Learn
+summary: How to get started with learning Esperanto, either in a class or on your own
 weight: 50
 menu: main
 ---

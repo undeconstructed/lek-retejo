@@ -1,5 +1,6 @@
 ---
 title: Kontaktu
+summary: Kontaktu la Londonan Esperanto-Klubon per retpoŝto.
 weight: 80
 menu: main
 ---

@@ -1,5 +1,6 @@
 ---
 title: Ekparolu!
+summary: Kio estas Ekparolu, kaj kial mi uzu ĝin?
 menu:
   main:
     parent: "Lernu / Learn"

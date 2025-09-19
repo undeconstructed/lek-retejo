@@ -1,5 +1,6 @@
 ---
 title: Aniĝu
+summary: Ĉi tiel oni povas iĝi ano de la Londona Esperanto-Klubo
 weight: 90
 menu: main
 ---

@@ -1,5 +1,6 @@
 ---
 title: Pri
+summary: Pri la estinteco kaj estonteco de LEK
 weight: 10
 menu: main
 ---

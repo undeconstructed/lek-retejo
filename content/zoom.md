@@ -1,5 +1,6 @@
 ---
 title: Zoom
+summary: Ricevu detalojn pri aliĝi Zoom-konvenojn de LEK
 ---
 
 # Partoprenu en niaj retaj renkontiĝoj!

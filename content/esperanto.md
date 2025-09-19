@@ -1,5 +1,6 @@
 ---
 title: Esperanto
+summary: Kio estas la internacia lingo Esperanto?
 menu:
   main:
     parent: "Pri"
