@@ -19,6 +19,10 @@
     </header>
 
     {{ .Content }}
+
+    {{- if .Param "eventaservo" }}
+    <p>Por pli da informo, vidu en <a href="https://eventaservo.org/e/{{ .Param "eventaservo" }}">Eventa Servo</a>.</p>
+    {{- end }}
   </article>
 
   <ul class="pagination">

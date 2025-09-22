@@ -219,6 +219,14 @@ body > .enhavo {
       all: unset;
       cursor: pointer;
     }
+
+    .event-bildo {
+      max-width: 100%;
+
+      img {
+        max-width: 100%;
+      }
+    }
   }
 
   main {

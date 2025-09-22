@@ -1,6 +1,7 @@
 ---
 title: 'Esperanta Revuo: Literatura vivo'
 eventdato: 2025-10-24T19:15:00+00:00
+eventaservo: 7435cf
 loko: Zoom
 menu:
   main:

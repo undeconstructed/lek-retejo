@@ -7,4 +7,4 @@ menu:
     parent: "Eventoj"
 ---
 
-Kelkaj uloj parolos pri lastatempaj aĵoj.
+Kelkaj uloj parolos pri lastatempaj eventoj en Esperantujo.
