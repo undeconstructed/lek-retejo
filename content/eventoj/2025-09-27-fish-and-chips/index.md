@@ -12,6 +12,11 @@ Sabaton la 27-an de septembro, venu vespermanĝi kun ni "Fish and Chips" kun gas
 
 <!--more-->
 
+{{< figure
+  src="fritaĵoj.jpg"
+  class="event-bildo"
+>}}
+
 Ni renkontiĝos en tradicia taverno en centra londono apud Russell Square.
 
 Se vi intencas partopreni, bv [kontakti nin](/kontaku) antaŭ la 20-a de septembro ĉar ni bezonas scii kiom da homoj ĉeestos por mendi tablon.
