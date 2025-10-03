@@ -16,13 +16,23 @@ const months = [
 
 const TESTING = false
 const URL = 'https://ekilio.com/api/lek/ZC7QTQ4ZSG'
+
 const KEYS = {
+  'kontakt': '376JVOVI07',
+  'aniĝ': 'ZKTDHI0F16',
+  'zum': 'SSJ29OOHSG',
+  'event': 'JAGBQOGQFM',
+  'anspec': 'HAX30TC7N2',
+}
+
+const TESTKEYS = {
   'kontakt': '486JROVIAY',
   'aniĝ': 'CHTDHI0F25',
   'zum': '2S7DJM36WO',
   'event': 'JAGBQOGQFM',
   'anspec': 'SY9D2YRY0X',
 }
+
 
 function setupMenu() {
   let navbar = document.querySelector('body > menu')
