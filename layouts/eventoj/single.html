@@ -21,7 +21,10 @@
     {{ .Content }}
 
     {{- if .Param "eventaservo" }}
-    <p>Por pli da informo, vidu en <a href="https://eventaservo.org/e/{{ .Param "eventaservo" }}">Eventa Servo</a>.</p>
+    <p>
+      Por pli da informo, vidu en <a href="https://eventaservo.org/e/{{ .Param "eventaservo" }}">Eventa Servo</a>.
+      {{- if eq (.Param "loko") "Zoom" }} Por havi ligilon al zoom-ĉambro, uzu <a href="/zoom">ĉi tiun formularon</a>.{{- end -}}
+    </p>
     {{- end }}
   </article>
 
