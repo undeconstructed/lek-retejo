@@ -8,4 +8,10 @@ menu:
     parent: "Eventoj"
 ---
 
-Erika Godó parolos.
+En ĉi tiu prelego, Erika Godó prezentos la esperantan revuon Literatura Vivo.
+
+<!--more-->
+
+Erika Godó, naskita en la 12-a de junio 1972, estas hungara esperantistino, poeto, verkisto, literatura tradukisto kaj kantotekstverkisto.
+
+Tiu ĉi evento estas organizita de la londona (LEK) kaj antverpena (LVS) kluboj.

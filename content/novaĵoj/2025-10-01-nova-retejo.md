@@ -1,6 +1,6 @@
 ---
 title: "Nova retejo!"
-date: 2025-09-15T09:00:00+00:00
+date: 2025-10-01T09:00:00+00:00
 author: fil
 menu:
   main:
