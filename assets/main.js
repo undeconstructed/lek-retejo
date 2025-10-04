@@ -15,6 +15,7 @@ const months = [
 ]
 
 const TESTING = false
+const ERROR = false
 const URL = 'https://ekilio.com/api/lek/ZC7QTQ4ZSG'
 
 const KEYS = {
@@ -32,7 +33,6 @@ const TESTKEYS = {
   'event': 'JAGBQOGQFM',
   'anspec': 'SY9D2YRY0X',
 }
-
 
 function setupMenu() {
   let navbar = document.querySelector('body > menu')
@@ -111,10 +111,22 @@ function setupForm(form, opts) {
   // ni faros per skripto
   form.setAttribute('novalidate', true)
 
-  let msgWorking = form.querySelector('.msg.working')
-  let msgSuccess = form.querySelector('.msg.success')
-  let msgInvalid = form.querySelector('.msg.invalid')
-  let msgError = form.querySelector('.msg.error')
+  let msgs = {
+    working: form.querySelector('.msg.working'),
+    success: form.querySelector('.msg.success'),
+    invalid: form.querySelector('.msg.invalid'),
+    error: form.querySelector('.msg.error'),
+  }
+
+  let showMessage = (which) => {
+    for (let k in msgs) {
+      if (which == k) {
+        msgs[k].style.display = 'block'
+      } else {
+        msgs[k].style.display = 'none'
+      }
+    }
+  }
 
   form.querySelector('[data-post-name=Age]').value = -45
 
@@ -153,48 +165,41 @@ function setupForm(form, opts) {
     }
   }
 
-  let fakeSubmit = data => {
-    window.setTimeout(() => {
+  let fakeSubmit = async data => {
+    await new Promise(res => setTimeout(res, 3000))
+    if (ERROR) {
+      opts.onError('testing error')
+    } else { 
       opts.onOK()
-    }, 1000)
+    }
   }
 
   opts.url = opts.url || URL
 
   opts.onInvalid = opts.onInvalid || (() => {
-    if (msgInvalid) {
-      msgInvalid.style.display = 'block'
-    }
+    showMessage('invalid')
   })
 
   opts.onValid = opts.onValid || (() => {
-    if (msgInvalid) {
-      msgInvalid.style.display = 'none'
-    }
+    showMessage()
   })
 
-  opts.onSubmit = opts.onSubmit || (data => {
-    // for (let l of form.querySelectorAll('.line')) {
-    //   l.style.display = 'none'
-    // }
+  opts.onSubmit = opts.onSubmit || (async data => {
+    showMessage('working')
+
+    form.setAttribute('inert', 'inert')
 
     if (!TESTING) {
-      submit(data)
+      await submit(data)
     } else {
-      fakeSubmit(data)
+      await fakeSubmit(data)
     }
   
-    if (msgWorking) {
-      msgWorking.style.display = 'block'
-    }
+    form.removeAttribute('inert')
   })
 
   opts.onOK = opts.onOK || (() => {
-    if (msgWorking) {
-      msgWorking.style.display = 'none'
-    }
-    msgError.style.display = 'none'
-    msgSuccess.style.display = 'block'
+    showMessage('success')
     form.reset()
   })
 
@@ -204,16 +209,7 @@ function setupForm(form, opts) {
 
   opts.onError = opts.onError || (res => {
     console.log('eraro', res)
-
-    if (msgWorking) {
-      msgWorking.style.display = 'none'
-    }
-
-    // for (let l of form.querySelectorAll('.line')) {
-    //   l.style.display = 'block'
-    // }
-  
-    msgError.style.display = 'block'
+    showMessage('error')
   })
 
   for (let f of form.querySelectorAll('input, textarea')) {

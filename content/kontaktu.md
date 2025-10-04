@@ -33,7 +33,7 @@ Bonvolu kontaktu nin rete pere de ĉi tiu formularo - la klubo ne havas propran 
     <div class="line">
       <div class="cell">
         <div class="cell-header"><label for="formContactUs_Message">Mesaĝo / Message: <abbr class="required" title="deviga/required">*</abbr></label></div>
-        <div class="cell-body h-220"><textarea id="formContactUs_Message" data-post-name="Message" required></textarea></div>
+        <div class="cell-body h-220"><textarea id="formContactUs_Message" data-post-name="Message" required minlength=10></textarea></div>
       </div>
     </div>
     <div class="msg working">
@@ -43,7 +43,7 @@ Bonvolu kontaktu nin rete pere de ĉi tiu formularo - la klubo ne havas propran 
     </div>
     <div class="msg success">
       <div class="cell">
-        <div class="cell-body">Dankon! Via mesaĝo estas sendita. Ni respondos baldaŭ! / Thank you! Your message has been sent. We will get back to you shortly.</div>
+        <div class="cell-body">Dankon! Via mesaĝo estas sendita. Ni respondos baldaŭ. / Thank you! Your message has been sent. We will get back to you shortly.</div>
       </div>
     </div>
     <div class="msg invalid">

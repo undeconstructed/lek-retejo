@@ -374,6 +374,7 @@ ul.pagination {
     display: none;
     font-weight: bold;
     text-align: center;
+    margin-top: 1rem;
   }
   .msg.working {
     color: var(--accent);
@@ -382,12 +383,16 @@ ul.pagination {
     color: var(--accent);
   }
   .msg.invalid {
-    margin-top: 1rem;
     color: var(--contrast);
   }
   .msg.error {
-    margin-top: 1rem;
     color: var(--contrast);
+  }
+}
+
+.form form[inert] {
+  .line, button {
+    opacity: 25%;
   }
 }
 
