@@ -87,7 +87,7 @@ body > header {
 }
 
 body > menu {
-  max-width: var(--width);
+  max-width: calc(var(--width) + 4rem);
   background: rgba(255,255,255,0.9);
   color: var(--egreen);
   padding: 0;
@@ -102,6 +102,7 @@ body > menu {
     flex-shrink: 0;
     text-align: center;
     visibility: hidden;
+    cursor: pointer;
   }
 
   ul {

@@ -68,6 +68,20 @@ function setupMenu() {
   if (active) {
     active.parentNode.scrollIntoView(false)
   }
+
+  const slide = (x) => {
+    list.scrollBy({behavior: 'smooth', left: x*(list.offsetWidth/3*2)})
+  }
+
+  let left = navbar.querySelector('.left')
+  left.addEventListener('click', e => {
+    slide(-1)
+  })
+
+  let right = navbar.querySelector('.right')
+  right.addEventListener('click', e => {
+    slide(+1)
+  })
 }
 
 async function cacheFetch(key, maxSeconds, url, opts) {
