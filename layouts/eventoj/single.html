@@ -3,8 +3,7 @@
 {{- end }}
 
 {{ define "kuntitolo" -}}
-  {{- $d := (.Param "eventdato" | time) -}}
-  {{ .Title }}, {{ $d.Day }}an de {{ index $.Site.Data.monatoj (printf "%d" $d.Month) }} ĉe LEK
+  {{ .Title }}, {{ .Date.Day }}an de {{ index $.Site.Data.monatoj (printf "%d" .Date.Month) }} ĉe LEK
 {{- end }}
 
 {{- define "main" }}
@@ -13,12 +12,19 @@
     <header>
       <h2>{{ .Title }}</h2>
       <div class="post-meta">
-        {{ $d := (.Param "eventdato" | time) }}
-        <time datetime="{{ $d.Format "2006-01-02T15:04:05Z07:00" }}"><span class="day">{{ $d.Day }}</span> <span class="month">{{ index $.Site.Data.monatoj (printf "%d" $d.Month) }}</span> <span class="year">{{ $d.Year }}</span> <span class="time">{{ $d.Format "15:04" }}</span></time>
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"><span class="day">{{ .Date.Day }}</span> <span class="month">{{ index $.Site.Data.monatoj (printf "%d" .Date.Month) }}</span> <span class="year">{{ .Date.Year }}</span> <span class="time">{{ .Date.Format "15:04" }}</span></time>
       </div>
     </header>
 
     {{ .Content }}
+
+    {{- if .Param "youtube" }}
+    <p><a href="https://www.youtube.com/watch?v={{ .Param "youtube" }}">Registraĵo de a la evento</a> spekteblas en YouTube aŭ ci tie:</p>
+
+    <div class="video">
+        <iframe src="https://www.youtube.com/embed/{{ .Param "youtube" }}" allowfullscreen></iframe>
+    </div>
+    {{- end }}
 
     {{- if .Param "eventaservo" }}
     <p>
@@ -29,13 +35,16 @@
   </article>
 
   <ul class="pagination">
-    {{- with .NextInSection }}
+    {{- $pages := (sort (.CurrentSection.Pages.ByParam "eventdato")).Reverse -}}
+    {{- $prev := $pages.Prev . -}}
+    {{- $next := $pages.Next . -}}
+    {{- with $next }}
       <li class="page-item"><a class="page-link" href="{{ .RelPermalink }}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
     {{- else }}
       <li class="page-item disabled"><a class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
     {{- end }}
     <li class="page-item"><a class="page-link" href="{{ .Parent.RelPermalink }}">Ĉiuj eventoj</a></li>
-    {{- with .PrevInSection }}
+    {{- with $prev }}
       <li class="page-item"><a class="page-link" href="{{ .RelPermalink }}" aria-label="Next">&raquo;</a></li>
     {{- else }}
       <li class="page-item disabled"><a class="page-link" aria-label="Next">&raquo;</a></li>

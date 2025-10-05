@@ -39,7 +39,7 @@ Por ricevi ĝin, simple plenigu la ĉi-suban formularon. Se vi havas ajnan deman
     </div>
     <div class="msg invalid">
       <div class="cell">
-        <div class="cell-body">Bonovlu plenigi bezonatajn kampojn.</div>
+        <div class="cell-body">Bonvolu plenigi bezonatajn kampojn.</div>
       </div>
     </div>
     <div class="msg error">

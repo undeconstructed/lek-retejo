@@ -1,6 +1,7 @@
 ---
 title: 'Esperanta Revuo: Literatura vivo'
-eventdato: 2025-10-24T19:15:00+00:00
+date: 2025-10-24T19:15:00+01:00
+published: 2025-09-10T00:00:00+00:00
 eventaservo: 7435cf
 loko: Zoom
 menu:
@@ -8,7 +9,7 @@ menu:
     parent: "Eventoj"
 ---
 
-En ĉi tiu prelego, Erika Godó prezentos la esperantan revuon Literatura Vivo.
+En ĉi tiu prelego, Erika Godó prezentos la esperantan revuon _Literatura Vivo_.
 
 <!--more-->
 

@@ -48,7 +48,7 @@ Bonvolu kontaktu nin rete pere de ĉi tiu formularo - la klubo ne havas propran 
     </div>
     <div class="msg invalid">
       <div class="cell">
-        <div class="cell-body">Bonovlu plenigi la bezonatajn kampojn. / Please fill in the required fields.</div>
+        <div class="cell-body">Bonvolu plenigi la bezonatajn kampojn. / Please fill in the required fields.</div>
       </div>
     </div>
     <div class="msg error">

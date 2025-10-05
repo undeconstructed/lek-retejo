@@ -24,7 +24,8 @@ dosiero="content/eventoj/${dato}-${etikedo}.md"
 cat << xxx > ${dosiero}
 ---
 title: '${nomo}'
-eventdato: ${dato}T${horo}:00+00:00
+date: ${dato}T${horo}:00+00:00
+published: ${dato0}T00:00:00+00:00
 eventaservo: ${eventaservo}
 loko: ${loko}
 menu:

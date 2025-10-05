@@ -8,7 +8,7 @@
   <meta name="description" content="Londona Esperanto-Klubo">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#779734">
-  <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}/favicon.svg">
+  <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}favicon.svg">
 
   {{- $styles := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.scss" . | css.Sass | resources.Minify | resources.Fingerprint -}}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">

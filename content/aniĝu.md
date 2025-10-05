@@ -113,7 +113,7 @@ Via kotizo validos ĝis la venonta 31-a de decembro.
     </div>
     <div class="msg invalid">
       <div class="cell">
-        <div class="cell-body">Bonovlu plenigi la bezonatajn kampojn, kaj konfirmi kaj vi akceptas la regulojn.</div>
+        <div class="cell-body">Bonvolu plenigi la bezonatajn kampojn, kaj konfirmi kaj vi akceptas la regulojn.</div>
       </div>
     </div>
     <div class="msg error">

@@ -11,6 +11,7 @@ La surloka klubejo ekzistas nur dum kunvenoj. Bedaŭrinde, tio signifas ke ni ne
 
 ## Fotoj
 
+* [Londono ("Praga" tago) - 27an de septembro 2025](https://photos.app.goo.gl/HndogkG2TcyftFok7)
 * [Highbury (diskuto pri "Unuiĝinta Eŭropo") - 12an de septembro 2025](https://photos.app.goo.gl/fVCrMpAgJogDuNp89)
 * [Greenwich (Promenado) - 27an de junio 2025](https://photos.app.goo.gl/cQTXdixDPidCRxdF6)
 * [Highbury (Alexander/Shenghao Hu) - 13an de junio 2025](https://photos.app.goo.gl/fb5F1fcLZPaGu8Gz6)
