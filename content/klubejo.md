@@ -7,7 +7,7 @@ menu: main
 
 # Klubejo
 
-La surloka klubejo ekzistas nur dum kunvenoj. Bedaŭrinde, tio signifas ke ni ne havas murojn kien fiksi fotojn, aŭ bretojn kien meti bibliotekon. Anstataŭe, ni havas ĉi tiun paĝon! Se klubano kreas ion kaj volas montri ĝin, ĉi tio eble estas la loko.
+La surloka klubejo ekzistas nur dum kunvenoj. Bedaŭrinde, tio signifas ke ni ne havas murojn kien fiksi fotojn, aŭ bretojn kien meti nian libraron. Anstataŭe, ni havas ĉi tiun paĝon! Se klubano kreas ion kaj volas montri ĝin, ĉi tio eble estas la loko.
 
 ## Fotoj
 

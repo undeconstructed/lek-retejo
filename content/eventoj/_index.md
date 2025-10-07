@@ -10,7 +10,7 @@ outputs: [ "html", "rss" ]
   {{< lang eo >}}
 ## Kiam kaj kie
 
-La Londona Esperanto-Klubo kunvenas en Highbury je la dua vendredon de ĉiu monato en Highbury, kaj rete (per Zoom) la aliajn vendredojn, kaj ni okazigas aliajn eventojn de tempo al tempo. Vi trovos ĉi-sube la plej ĝisdatigitan programon. Niaj kunvenoj okazos en Esperanto sed vi estas pli ol bonvena veni se vi ankoraŭ lernas la lingvon. Fakte, kelkaj el ili estas precipe por uloj kiuj ankoraŭ ne estas fluaj parolantoj. Se vi volas veni, sed timi pri ĉu vi estas preta, [diru al ni](../kontaktu) antaŭe kaj ni certigos ke iu estos tie por helpi. Se vi bezonas pliajn informojn, bonvolu [kontakti nin](../kontaktu).
+La Londona Esperanto-Klubo kunvenas en Highbury je la dua vendredo de ĉiu monato en Highbury, kaj rete (per Zoom) la aliajn vendredojn, kaj ni okazigas aliajn eventojn de tempo al tempo. Vi trovos ĉi-sube la plej ĝisdatigitan programon. Niaj kunvenoj okazos en Esperanto sed vi estas pli ol bonvena veni se vi ankoraŭ lernas la lingvon. Fakte, kelkaj el ili estas precipe por uloj kiuj ankoraŭ ne estas fluaj parolantoj. Se vi volas veni, sed timi pri ĉu vi estas preta, [diru al ni](../kontaktu) antaŭe kaj ni certigos ke iu estos tie por helpi. Se vi bezonas pliajn informojn, bonvolu [kontakti nin](../kontaktu).
 
 Pliaj eventoj en Londono kaj aliloke troveblas en [Eventa Servo](https://eventaservo.org/europo/britio/londono).
   {{</ lang >}}

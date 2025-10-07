@@ -13,7 +13,7 @@ menu: main
 
 **Esperanto** estas "ponto" inter diversaj lingvo-komunumoj. Ĝi estas pli facile lernebla ol aliaj lingvoj ĉar ĝi havas simplajn kaj konsekvencajn regulojn, sed ĝi estas same kapabla kiel aliaj lingvoj. [Legu pli pri Esperanto](esperanto).
 
-**Ĉu lerni Esperanton interesas al vi?** Nia [lern-paĝo](lernu) diros al vi kiel komenci, inkluzive de informo pri la multaj kursoj subtenata de la klubo.
+**Ĉu lerni Esperanton interesas al vi?** Nia [lern-paĝo](lernu) diros al vi kiel komenci, inkluzive de informo pri la multaj kursoj organizataj de la klubo.
 
   {{</ lang >}}
   {{< lang en >}}
@@ -21,7 +21,7 @@ menu: main
 
 **Esperanto** is a "bridge" between different language communities. It is easier to learn than other languages because it has simple and consistent rules, but it is just as capable as other languages. [Read more about Esperanto](esperanto).
 
-**Are you interested in learning Esperanto?** Our [learning page](lernu) will tell you how to get started, including information about the many courses supported by the club.
+**Are you interested in learning Esperanto?** Our [learning page](lernu) will tell you how to get started, including information about the many courses organised by the club.
 
   {{</ lang >}}
 {{</ twolang >}}
@@ -30,7 +30,7 @@ menu: main
   {{< lang eo >}}
 ## Pri LEK
 
-La Londona Esperanto-Klubo (LEK), fondita en 1903, estas Esperanto-asocio en Londono (Britujo), kiu zorgas pri la disvastigo de Esperanto en Londono kaj organizas kulturajn eventojn port la komunumo parolanta Esperanton en Londono kaj ĉirkaŭ ĝi. [Pli&nbsp;→](pri)
+La Londona Esperanto-Klubo (LEK), fondita en 1903, estas Esperanto-asocio en Londono (Britujo), kiu zorgas pri la disvastigo de Esperanto en Londono kaj organizas kulturajn eventojn por la komunumo parolanta Esperanton en Londono kaj ĉirkaŭ ĝi. [Pli&nbsp;→](pri)
 
 Ni havas ankaŭ [paĝon "Londona Esperanto-Klubo"](https://www.facebook.com/groups/168574686510076) en Facebook!
   {{</ lang >}}

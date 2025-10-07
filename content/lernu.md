@@ -18,16 +18,16 @@ menu: main
   {{< lang eo >}}
 ## Kursoj
 
-Ni amas [kursaro.net](http://kursaro.net). Ĉi tiujn kursojn komencis ano de la Londona klubo, kaj estas instruataj de lertaj esperantistoj, per interreto, al homoj trans la mondo. Se vi volas lerni de instruisto, kun grupaj lecionoj, ĉi tio estas por vi.
+Ni amas [kursaro.net](http://kursaro.net). Ĉi tiujn kursojn komencis ano de la Londona klubo, kaj estas instruataj de lertaj esperantistoj, per interreto, al homoj tra la mondo. Se vi volas lerni de instruisto, kun grupaj lecionoj, ĉi tio estas por vi.
 
-Se vi progresas, eble vi ŝatus paroli kun instruistoj de ĉirkaŭ la mondo, kiuj povas helpi vin per kaj instrukcio kaj oportuno paroli en medio de malalta premo. Vi serĉas [Ekparolu!](../ekparolu)
+Se vi progresas, eble vi ŝatus paroli kun instruistoj de la tuta mondo, kiuj povas helpi vin pere de instruado aŭ simple donante al vi okazon babili en senprema situacio, vi serĉas [Ekparolu!](../ekparolu)
   {{< /lang >}}
   {{< lang en >}}
 ## Courses
 
-We love [kursaro.net](http://kursaro.net). These courses were started by a member of the London club, and are taught by skilled esperantists, over the Internet, to people across the world. If you want to learn from a teacher, with group lessions, this is for you.
+We love [kursaro.net](http://kursaro.net). These courses were started by a member of the London club, and are taught by skilled esperantists, over the Internet, to people throughout the world. If you want to learn from a teacher, with group lessions, this is for you.
 
-If you are progressing, then perhaps you would like to speak with teachers from the around the world, who can help you with both instruction and an opportunity to speak in a low-pressure environment. You are looking for [Ekparolu!](../ekparolu)
+If you are progressing, then perhaps you would like to speak with teachers from the whole world, who can help you by teaching or simply giving you a chance to speak in a low-pressure environment, you are looking for [Ekparolu!](../ekparolu)
   {{< /lang >}}
 {{< /twolang >}}
 
@@ -37,11 +37,11 @@ If you are progressing, then perhaps you would like to speak with teachers from 
 
 Vi povas komenci tre rapide per [Esperanto en 17 minutoj](https://unua.leciono.org/). Ĉi tiu unuopa paĝo enkondukas la bazajn partojn de Esperanto tre rapide.
 
-Aŭ iru pli profunden per [Esperanto in 12 days](https://learn.esperanto.com/en).
+Aŭ vi povas iri pli profunden per [Esperanto in 12 days](https://learn.esperanto.com/en).
 
 Troviĝas kompleta kaj bela kurso ĉe [Lernu.net](https://lernu.net/), konstruita ĉirkaŭ originala rakonto de [verkisto kaj LEKano Anna Löwenstein](https://en.wikipedia.org/wiki/Anna_L%C3%B6wenstein).
 
-Aŭ por multe de ekzercado jen [Duolingo](https://www.duolingo.com/course/eo/en/Learn-Esperanto). Esperanto estas unu el malmultaj lingvoj kiujn oni povas lerni bone per Duolingo, ĉar la konsekvenceco de la lingvo permesas ke oni lernu sen multaj klarigoj. Sed, bonvolu ne pensi ke ni ĝenerale rekomendas Duolingon kiel lernilon.
+Aŭ por multe da ekzercado jen [Duolingo](https://www.duolingo.com/course/eo/en/Learn-Esperanto). Esperanto estas unu el malmultaj lingvoj kiujn oni povas lerni bone per Duolingo, ĉar la konsekvenceco de la lingvo permesas ke oni lernu sen multaj klarigoj. Sed, bonvolu ne pensi ke ni ĝenerale rekomendas Duolingon kiel lernilon.
   {{< /lang >}}
   {{< lang en >}}
 ## Self learning
@@ -60,7 +60,7 @@ Or for more practise, there's [Duolingo](https://www.duolingo.com/course/eo/en/L
   {{< lang eo >}}
 ## Rimedoj
 
-[UEA Facila](https://uea.facila.org/) - Mallongaj kaj facilaj artikoloj en Esperanto.
+[UEA Facila](https://uea.facila.org/) - Mallongaj kaj facilaj artikoloj en Esperanto. Novaj artikoloj aldoniĝas ofte.
 
 [Plena Manlibro de Esperanta Gramatiko (PMEG)](http://bertilow.com/pmeg/detala_enhavo.html) estas la plej plena priskribo de la lingvo Esperanto. Averto: ĝi eble enhavas pli da detaloj ol vi serĉas!
 
@@ -69,10 +69,10 @@ Or for more practise, there's [Duolingo](https://www.duolingo.com/course/eo/en/L
   {{< lang en >}}
 ## Resources
 
-[UEA Facila](https://uea.facila.org/) - Short and easy articles in Esperanto.
+[UEA Facila](https://uea.facila.org/) - Short and easy articles in Esperanto. New articles are added often.
 
 [Plena Manlibro de Esperanta Gramatiko (PMEG)](http://bertilow.com/pmeg/detala_enhavo.html) is the fullest description of the Esperanto language. Warning: it might contain more details that you are looking for!
 
-[La bona lingvo](https://labonalingvo.org/) helps with good use of our langauge - i.e. how to use it more understandably, for clearest communication.
+[La bona lingvo](https://labonalingvo.org/) helps with good use of our langauge - i.e. how to use it most understandably, for clearest communication.
   {{< /lang >}}
 {{< /twolang >}}
