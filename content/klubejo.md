@@ -9,6 +9,10 @@ menu: main
 
 La surloka klubejo ekzistas nur dum kunvenoj. Bedaŭrinde, tio signifas ke ni ne havas murojn kien fiksi fotojn, aŭ bretojn kien meti nian libraron. Anstataŭe, ni havas ĉi tiun paĝon! Se klubano kreas ion kaj volas montri ĝin, ĉi tio eble estas la loko.
 
+## Libraro
+
+[Vidu ĉi tie.](../libraro)
+
 ## Fotoj
 
 * [Londono ("Praga" tago) - 27an de septembro 2025](https://photos.app.goo.gl/HndogkG2TcyftFok7)
