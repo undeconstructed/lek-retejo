@@ -9,7 +9,7 @@ menu:
     parent: "Eventoj"
 ---
 
-En ĉi tiu prelego, Erika Godó prezentos la esperantan revuon _Literatura Vivo_.
+Erika Godó prezentos la esperantan revuon _Literatura Vivo_.
 
 <!--more-->
 

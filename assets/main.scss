@@ -238,6 +238,17 @@ body > .enhavo {
     max-width: var(--width);
     margin: 0 auto 0 auto;
   }
+
+  blockquote {
+    border-left: 2px solid var(--egreen);
+    margin-left: .5rem;
+    padding: .5rem;
+    background-color: #bbb2;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .twolang {

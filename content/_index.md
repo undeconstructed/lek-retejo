@@ -13,7 +13,7 @@ menu: main
 
 **Esperanto** estas "ponto" inter diversaj lingvo-komunumoj. Ĝi estas pli facile lernebla ol aliaj lingvoj ĉar ĝi havas simplajn kaj konsekvencajn regulojn, sed ĝi estas same kapabla kiel aliaj lingvoj. [Legu pli pri Esperanto](esperanto).
 
-**Ĉu lerni Esperanton interesas al vi?** Nia [lern-paĝo](lernu) diros al vi kiel komenci, inkluzive de informo pri la multaj kursoj organizataj de la klubo.
+**Ĉu lerni Esperanton interesas al vi?** Nia [lern-paĝo](lernu) diros al vi kiel komenci, inkluzive de informoj pri la multaj kursoj organizataj de la klubo.
 
   {{</ lang >}}
   {{< lang en >}}
