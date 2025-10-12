@@ -1,6 +1,6 @@
 ---
 title: Klubejo
-summary: Aĵoj kaj aferoj de LEK
+summary: Aĵoj kaj aferoj de LEK.
 weight: 60
 menu: main
 ---

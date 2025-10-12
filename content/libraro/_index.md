@@ -1,6 +1,6 @@
 ---
 title: Libraro
-summary: Kolekto de libroj
+summary: Kolekto de libroj ĉe LEK.
 weight: 60
 menu:
   main:

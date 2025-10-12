@@ -1,6 +1,6 @@
 ---
 title: Bulteno
-summary: Arĥivo de LEK bultenoj
+summary: Arĥivo de LEK bultenoj.
 weight: 30
 menu: main
 ---

@@ -1,6 +1,6 @@
 ---
 title: Eventoj
-summary: Eventoj ĉe la klubo, venontaj kaj pasintaj
+summary: Eventoj ĉe la klubo, venontaj kaj pasintaj.
 weight: 41
 menu: main
 outputs: [ "html", "rss" ]
