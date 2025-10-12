@@ -1,6 +1,6 @@
 ---
 title: Hejmo
-summary: La Londona Esperanto-Klubo, fondita en 1903, estas unu el la plej antikvaj Esperanto-kluboj en la mondo.
+summary: La Londona Esperanto-Klubo, fondita en 1903, estas unu el la plej aĝaj Esperanto-kluboj en la mondo.
 weight: 1
 menu: main
 ---
