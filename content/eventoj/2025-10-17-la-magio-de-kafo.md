@@ -2,7 +2,7 @@
 title: 'Kiel trompi la cerbon: La magio de kafo'
 date: 2025-10-17T19:15:00+00:00
 published: 2025-10-08T00:00:00+00:00
-eventaservo: 
+eventaservo: a3f372
 loko: Zoom
 menu:
   main:

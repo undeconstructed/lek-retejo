@@ -26,9 +26,10 @@
     </div>
     {{- end }}
 
-    {{- if .Param "eventaservo" }}
     <p>
-      Por pli da informo, vidu en <a href="https://eventaservo.org/e/{{ .Param "eventaservo" }}">Eventa Servo</a>.
+      {{- if .Param "eventaservo" }}
+        Por pli da informo, vidu en <a href="https://eventaservo.org/e/{{ .Param "eventaservo" }}">Eventa Servo</a>.
+      {{- end }}
       {{- if eq (.Param "loko") "Zoom" }} Por havi ligilon al zoom-ĉambro, uzu <a href="/zoom">ĉi tiun formularon</a>.{{- end -}}
       {{- if .Param "openstreetmap" }}
         Trovu la lokon en <a href="{{- .Param "openstreetmap" }}">OpenStreetMap</a>
@@ -37,7 +38,6 @@
         Trovu la lokon en <a href="{{- .Param "googlemaps" }}">Google Maps</a>.
       {{- end -}}
     </p>
-    {{- end }}
   </article>
 
   <ul class="pagination">
