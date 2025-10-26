@@ -52,7 +52,7 @@ https://edukado.net/ekparolu
 
 You should see this white cross:
 
-<img src="https://londonaesperantoklubo.com/images/ekparolu.png" />
+<img src="/bildoj/ekparolu.png" />
 
 Click on it to see the calendar with all the available 30-minute slots (in green). Click on one to see which geonklo is available for that slot. If you want to book the session, click on "Peti la sesion".
 
