@@ -1,8 +1,8 @@
 ---
 title: 'Historio de 100 jaroj de muziko en esperanto'
 date: 2025-11-07T19:15:00+00:00
-published: 2025-11-01T00:00:00+00:00
-eventaservo: 
+published: 2025-10-27T00:00:00+00:00
+eventaservo: a59cd3
 loko: Zoom
 menu:
   main:
