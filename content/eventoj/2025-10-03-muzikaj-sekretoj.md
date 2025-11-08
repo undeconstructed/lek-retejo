@@ -16,7 +16,7 @@ Prelego de Franĉesko Franceschini (Italio).
 
 {{< figure
   src="https://eventaservo.org/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc3RzIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--490cad1fdddccdee9a77a3b6c2651aac09e2dc1c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJQUJHa0NBQU09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--dcedef9b1d1bcecd40bbb95328b200f4b3095515/bildo.png"
-  class="event-bildo"
+  class="eventa-bildo"
 >}}
 
 Aŭskultado kaj simpla analizo de tri-minuta partituro verkita antaŭ du jarcentoj donas inspiron por malkovri kiel muziko, supervenkante kulturajn kaj naciajn barilojn, kapablas emocii homojn kaj tuŝi ĉies sentojn.

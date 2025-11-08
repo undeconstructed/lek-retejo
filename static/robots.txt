@@ -25,6 +25,9 @@ Disallow: /
 User-agent: FacebookBot
 Disallow: /
 
+User-agent: meta-externalagent
+Disallow: /
+
 User-agent: DotBot
 Disallow: /
 
@@ -41,4 +44,13 @@ User-agent: SEOkicks-Robot
 Disallow: /
 
 User-agent: Buddybot
+Disallow: /
+
+User-agent: serpstatbot
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: BLEXBot
 Disallow: /

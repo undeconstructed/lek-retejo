@@ -11,4 +11,5 @@ En la bulteno troviĝas la programo de kunsidoj, novaĵoj, artikoloj pri Londono
 
 {{< figure
   src="presita.jpg"
+  class="larĝa-bildo"
 >}}
