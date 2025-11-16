@@ -7,6 +7,7 @@ eventaservo:
 loko: Highbury
 openstreetmap: https://www.openstreetmap.org/way/250635446
 googlemaps: https://maps.app.goo.gl/GhUo8SitGRomvG8Y8
+fotoj: https://photos.app.goo.gl/489pNwWqWMXRiXf96
 menu:
   main:
     parent: "Eventoj"
@@ -26,3 +27,9 @@ menu:
 Estos kelkaj ekzempleroj aĉeteblaj je la kunveno, kaj oni povas trovi en via loka librovendejo, aŭ ekzemple ĉe [Waterstones](https://www.waterstones.com/book/aferoj-disfalas/chinua-achebe/anna-l-wenstein/9780902756854).
 
 Pri la romano parolo daŭros eble duonhoron. Dum cetera tempo Anna gvidos lingvan seminarion.
+
+***
+
+### Raporto
+
+Anna parolis pri la lukto por eldoni la tradukon, kaj pri la traduka procedo. Ŝi priskribis malfacilajn decidojn pri kiom klarigi la tekston por interkultura legantaro, kompare al intenca neklarigo en partoj de la originalo. Post la prezento, la diskuto daŭris dum la tuta event-tempo. Ni diskutis pri la stilo de la teksto, kaj en la angla kaj en Esperanto, kaj pri kiel tio efikis al la romano mem kaj al ĝia impreso al la mondo.
