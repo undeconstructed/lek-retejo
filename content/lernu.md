@@ -73,6 +73,6 @@ Or for more practise, there's [Duolingo](https://www.duolingo.com/course/eo/en/L
 
 [Plena Manlibro de Esperanta Gramatiko (PMEG)](http://bertilow.com/pmeg/detala_enhavo.html) is the fullest description of the Esperanto language. Warning: it might contain more details that you are looking for!
 
-[La bona lingvo](https://labonalingvo.org/) helps with good use of our langauge - i.e. how to use it most understandably, for clearest communication.
+[La bona lingvo](https://labonalingvo.org/) helps with good use of our language - i.e. how to use it most understandably, for clearest communication.
   {{< /lang >}}
 {{< /twolang >}}
