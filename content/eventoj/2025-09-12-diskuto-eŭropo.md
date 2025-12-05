@@ -1,6 +1,6 @@
 ---
 title: 'Diskuto (bonanima) pri unuiĝinta Eŭropo'
-date: 2025-09-12T19:00:00+01:00
+date: 2025-09-12T19:15:00+01:00
 published: 2025-09-10T00:00:00+00:00
 eventaservo: d45e39
 loko: Highbury

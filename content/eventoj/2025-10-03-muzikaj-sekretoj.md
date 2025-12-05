@@ -1,6 +1,6 @@
 ---
 title: 'Muzikaj sekretoj'
-date: 2025-10-03T19:15:00+01:00
+date: 2025-10-03T19:00:00+01:00
 published: 2025-09-10T00:00:00+00:00
 eventaservo: 1bcb33
 youtube: G8LEvMzmb_Q

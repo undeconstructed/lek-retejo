@@ -1,6 +1,6 @@
 ---
 title: 'Eventoj de Esperanto-Centro en Herzberg am Harz'
-date: 2025-09-19T19:15:00+01:00
+date: 2025-09-19T19:00:00+01:00
 published: 2025-09-10T00:00:00+00:00
 eventaservo: 41e79f
 youtube: v93CZkEgHW8

@@ -1,7 +1,7 @@
 ---
 title: 'Anna Löwenstein pri Aferoj Disfalas'
 summary: 'LEKano Anna Löwenstein parolas pri sia nova traduko *Aferoj Disfalas*.'
-date: 2025-11-14T19:00:00+00:00
+date: 2025-11-14T19:15:00+00:00
 published: 2025-10-27T00:00:00+00:00
 eventaservo: 
 loko: Highbury

@@ -1,6 +1,6 @@
 ---
 title: 'Simboloj sur tomboŝtonoj'
-date: 2025-11-28T19:15:00+00:00
+date: 2025-11-28T19:00:00+00:00
 published: 2025-10-27T00:00:00+00:00
 eventaservo: f0f77c
 loko: Zoom
