@@ -15,7 +15,8 @@ La surloka klubejo ekzistas nur dum kunvenoj. Bedaŭrinde, tio signifas ke ni ne
 
 ## Fotoj
 
-* [Anna Löwenstein parolas pru *Aferoj disfalas*](https://photos.app.goo.gl/489pNwWqWMXRiXf96) - ([eventa paĝo](/eventoj/2025-11-14-aferoj-disfalas))
+* [Teatraĵo ĉe LEK](https://photos.app.goo.gl/3YMTVmwP9srERBsh7) - ([eventa paĝo](/eventoj/2025-12-12-teatraĵo-ĉe-lek))
+* [Anna Löwenstein parolas pri *Aferoj disfalas*](https://photos.app.goo.gl/489pNwWqWMXRiXf96) - ([eventa paĝo](/eventoj/2025-11-14-aferoj-disfalas))
 * [Kviz-vespero - 10a de oktobro 2025](https://photos.app.goo.gl/U1mTKnsAKT4H3bZZA) - ([eventa paĝo](/eventoj/2025-10-10-kvizo/))
 * [Londono ("Praga" tago) - 27an de septembro 2025](https://photos.app.goo.gl/HndogkG2TcyftFok7) - ([eventa paĝo](/eventoj/2025-09-27-fish-and-chips/))
 * [Highbury (diskuto pri "Unuiĝinta Eŭropo") - 12an de septembro 2025](https://photos.app.goo.gl/fVCrMpAgJogDuNp89) - ([eventa paĝo](/eventoj/2025-09-12-diskuto-e%C5%ADropo/))

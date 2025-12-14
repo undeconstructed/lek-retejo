@@ -63,3 +63,13 @@ Disallow: /
 
 User-agent: barkrowler
 Disallow: /
+
+User-agent: AwarioRssBot
+User-agent: AwarioSmartBot
+Disallow: / 
+
+User-agent: TerraCotta  
+Disallow: /
+
+User-agent: SERankingBacklinksBot
+Disallow: /
