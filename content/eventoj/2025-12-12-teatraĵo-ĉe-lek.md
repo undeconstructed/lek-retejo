@@ -19,4 +19,4 @@ De la ludantoj:
 
 ### Raporto
 
-Malgraŭ tio ke tri aktoroj ne povus ĉeesti, inkluzive de tiu kun plej multaj linioj, la treatraĵo okazis bonege! Gabriele vizitis el Germanio, kaj volontulis ludi rolon de Hamleto. Aŭ eble Rico iel persvadis al ŝi ke ŝi volontulu? Ŝi ne nur faris la taskon bone, sed ankaŭ provizis al ni per germanaj manĝaĵoj, pro kio ni multe dankas. Tre sukcese okazo!
+Malgraŭ tio ke tri aktoroj ne povis ĉeesti, inkluzive de tiu kun plej multaj linioj, la treatraĵo okazis bonege! Gabriele vizitis el Germanio, kaj volontulis ludi rolon de Hamleto. Aŭ eble Rico iel persvadis al ŝi ke ŝi volontulu? Ŝi ne nur faris la taskon bone, sed ankaŭ provizis al ni per germanaj manĝaĵoj, pro kio ni multe dankas. Tre sukcesa okazo!
