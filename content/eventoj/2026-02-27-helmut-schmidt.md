@@ -3,7 +3,7 @@ title: 'Helmut Schmidt, iama kanceliero de Germanio'
 date: 2026-02-27T19:00:00+00:00
 published: 2026-01-02T00:00:00+00:00
 eventaservo: 
-loko: Highbury
+loko: Zoom
 menu:
   main:
     parent: "Eventoj"

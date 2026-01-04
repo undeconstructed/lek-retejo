@@ -3,7 +3,7 @@ title: 'Nova jaro: Teatraĵo kaj bazaro'
 summary: Plua okazo por spekti la teatraĵon, kaj bazaro de esperantaĵoj.
 date: 2026-01-09T19:15:00+00:00
 published: 2026-01-02T00:00:00+00:00
-eventaservo: 
+eventaservo: 090a82
 loko: Highbury
 openstreetmap: https://www.openstreetmap.org/way/250635446
 googlemaps: https://maps.app.goo.gl/GhUo8SitGRomvG8Y8

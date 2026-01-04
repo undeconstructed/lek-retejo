@@ -4,6 +4,7 @@ date: 2025-11-21T19:00:00+00:00
 published: 2025-10-27T00:00:00+00:00
 eventaservo: 
 loko: Zoom
+youtube: pQDLlpr0bZo
 menu:
   main:
     parent: "Eventoj"
