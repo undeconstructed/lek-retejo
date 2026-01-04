@@ -1,41 +1,117 @@
 #!/bin/bash
 
-read -e -p "Nomo: " nomo
-if test -z "$nomo"; then exit 1; fi
+set -eo pipefail
 
-etikedo0=$(echo ${nomo} | tr -s " [:upper:]ĈĜĤĴŜŬ" "-[:lower:]ĉĝĥĵŝŭ" | tr -dc "[:alnum:]ĉĝĥĵŝŭ-")
-read -e -p "Etikedo: " -i "${etikedo0}" etikedo
-if test -z "$etikedo"; then exit 1; fi
+do_prompt() {
+  read -e -p "Nomo: " NOMO
+  if test -z "$NOMO"; then exit 1; fi
 
-read -e -p "Loko: " -i "Highbury" loko
-if test -z "$loko"; then exit 1; fi
+  local ETIKEDO0=$(echo ${NOMO} | tr -s " [:upper:]ĈĜĤĴŜŬ" "-[:lower:]ĉĝĥĵŝŭ" | tr -dc "[:alnum:]ĉĝĥĵŝŭ-")
+  read -e -p "Etikedo: " -i "${ETIKEDO0}" ETIKEDO
+  if test -z "$ETIKEDO"; then exit 1; fi
 
-dato0=$(date -I)
-read -e -p "Dato (YYYY-MM-DD): " -i ${dato0} dato
-if test -z "$dato"; then exit 1; fi
+  read -e -p "Loko: " -i "Highbury" LOKO
+  if test -z "$LOKO"; then exit 1; fi
 
-read -e -p "Horo (HH:MM): " -i "19:00" horo
-if test -z "$horo"; then exit 1; fi
+  if [[ $LOKO == "Highbury" ]] ; then
+    MAP_OS=https://www.openstreetmap.org/way/250635446
+    MAP_GO=https://maps.app.goo.gl/GhUo8SitGRomvG8Y8
+  fi
 
-read -e -p "Eventa Servo: " eventaservo
+  local DATO0=$(date -I)
+  read -e -p "Dato (YYYY-MM-DD): " -i ${DATO0} DATO
+  if test -z "$DATO"; then exit 1; fi
 
-dosiero="content/eventoj/${dato}-${etikedo}.md"
+  read -e -p "Horo (HH:MM): " -i "19:00" HORO
+  if test -z "$HORO"; then exit 1; fi
 
-cat << xxx > ${dosiero}
+  read -e -p "Eventa Servo: " ES_TAG
+
+  local DOSIERO="content/eventoj/${DATO}-${ETIKEDO}.md"
+
+  cat << xxx > ${DOSIERO}
 ---
-title: '${nomo}'
-date: ${dato}T${horo}:00+00:00
-published: ${dato0}T00:00:00+00:00
-eventaservo: ${eventaservo}
-loko: ${loko}
+title: '${NOMO}'
+date: ${DATO}T${HORO}:00+00:00
+published: ${DATO0}T00:00:00+00:00
+eventaservo: ${ES_TAG}
+loko: ${LOKO}
+openstreetmap: ${MAP_OS}
+googlemaps: ${MAP_GO}
 menu:
   main:
     parent: "Eventoj"
 ---
 
-
 xxx
 
-vi "+normal G$" +startinsert ${dosiero}
+  vi "+normal G$" +startinsert ${DOSIERO}
 
-echo "Kreis " $dosiero
+  echo "Kreis " $DOSIERO
+}
+
+do_es() {
+  local ES_TAG=$1
+
+  local HTML=$(curl -s https://eventaservo.org/e/$ES_TAG | hxclean)
+  local LD=$(echo $HTML | hxselect -c html head 'script[type="application/ld+json"]')
+
+  local NOMO0=$(echo $LD | jq -r .description)
+  read -e -p "Nomo: " -i "${NOMO0}" NOMO
+  if test -z "$NOMO"; then
+    echo "Nenio trovita"
+    exit 1
+  fi
+
+  local ETIKEDO0=$(echo ${NOMO} | tr -s " [:upper:]ĈĜĤĴŜŬ" "-[:lower:]ĉĝĥĵŝŭ" | tr -dc "[:alnum:]ĉĝĥĵŝŭ-")
+  read -e -p "Etikedo: " -i "${ETIKEDO0}" ETIKEDO
+  if test -z "$ETIKEDO"; then exit 1; fi
+
+  local LOKO=$(echo $LD | jq -r .location.address.streetAddress)
+
+  if [[ $LOKO == "89 Ronalds Road, London, N5 1XQ" ]] ; then
+    LOKO="Highbury"
+  fi
+
+  if [[ $LOKO == "Highbury" ]] ; then
+    MAP_OS=https://www.openstreetmap.org/way/250635446
+    MAP_GO=https://maps.app.goo.gl/GhUo8SitGRomvG8Y8
+  fi
+
+  local DATO0=$(date -I)
+  local DATO=$(echo $LD | jq -r .startDate)
+  if test -z "$DATO"; then exit 1; fi
+
+  local HORO="19:00"
+  if test -z "$HORO"; then exit 1; fi
+
+  local TEKSTO=$(echo $HTML | hxselect 'div.trix-content div')
+
+  local DOSIERO="content/eventoj/${DATO}-${ETIKEDO}.md"
+
+  cat << xxx > ${DOSIERO}
+---
+title: '${NOMO}'
+date: ${DATO}T${HORO}:00+00:00
+published: ${DATO0}T00:00:00+00:00
+eventaservo: ${ES_TAG}
+loko: ${LOKO}
+openstreetmap: ${MAP_OS}
+googlemaps: ${MAP_GO}
+menu:
+  main:
+    parent: "Eventoj"
+---
+
+${TEKSTO}
+
+xxx
+}
+
+ESTAG=$1
+
+if [[ ! -z $ESTAG ]] ; then
+  do_es $ESTAG
+else
+  do_prompt
+fi
