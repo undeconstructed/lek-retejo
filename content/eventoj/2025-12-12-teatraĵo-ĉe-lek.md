@@ -3,7 +3,7 @@ title: 'Teatraĵo ĉe LEK'
 summary: Prezentiĝos «Provludo en la klubejo», teatraĵo de Marjorie Boulton.
 date: 2025-12-12T19:15:00+00:00
 published: 2025-10-27T00:00:00+00:00
-eventaservo: 
+eventaservo: 783926
 fotoj: https://photos.app.goo.gl/3YMTVmwP9srERBsh7
 loko: Highbury
 openstreetmap: https://www.openstreetmap.org/way/250635446

@@ -11,12 +11,13 @@ La surloka klubejo ekzistas nur dum kunvenoj. Bedaŭrinde, tio signifas ke ni ne
 
 ## Libraro
 
-[Vidu ĉi tie.](../libraro)
+LEK posedas kelkajn, ofte tre strangajn, librojn. [Vidu ĉion ĉi tie.](../libraro)
 
 ## Fotoj
 
-* [Teatraĵo ĉe LEK](https://photos.app.goo.gl/3YMTVmwP9srERBsh7) - ([eventa paĝo](/eventoj/2025-12-12-teatraĵo-ĉe-lek))
-* [Anna Löwenstein parolas pri *Aferoj disfalas*](https://photos.app.goo.gl/489pNwWqWMXRiXf96) - ([eventa paĝo](/eventoj/2025-11-14-aferoj-disfalas))
+* [Novjara festo - 9a de januaro 2026](https://photos.app.goo.gl/jUerfLGoe7bHh8fX7) - ([eventa paĝo](/eventoj/2026-01-09-teatraĵo-kaj-bazaro))
+* [Teatraĵo ĉe LEK - 12a de decembro 2025](https://photos.app.goo.gl/3YMTVmwP9srERBsh7) - ([eventa paĝo](/eventoj/2025-12-12-teatraĵo-ĉe-lek))
+* [Anna Löwenstein parolas pri *Aferoj disfalas* - 14a de novembro 2025](https://photos.app.goo.gl/489pNwWqWMXRiXf96) - ([eventa paĝo](/eventoj/2025-11-14-aferoj-disfalas))
 * [Kviz-vespero - 10a de oktobro 2025](https://photos.app.goo.gl/U1mTKnsAKT4H3bZZA) - ([eventa paĝo](/eventoj/2025-10-10-kvizo/))
 * [Londono ("Praga" tago) - 27an de septembro 2025](https://photos.app.goo.gl/HndogkG2TcyftFok7) - ([eventa paĝo](/eventoj/2025-09-27-fish-and-chips/))
 * [Highbury (diskuto pri "Unuiĝinta Eŭropo") - 12an de septembro 2025](https://photos.app.goo.gl/fVCrMpAgJogDuNp89) - ([eventa paĝo](/eventoj/2025-09-12-diskuto-e%C5%ADropo/))
