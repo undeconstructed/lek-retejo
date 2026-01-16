@@ -37,5 +37,5 @@ Iutage, oni skribu ion pli utilan!
 
 {{< figure
   src="libraro.jpg"
-  class="granda-bildo"
+  class="meza-bildo"
 >}}

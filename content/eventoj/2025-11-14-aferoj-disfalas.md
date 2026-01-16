@@ -13,7 +13,7 @@ menu:
     parent: "Eventoj"
 ---
 
-> Ĉi tiu programero ŝanĝiĝis ekde la bultena anonco.
+> Ĉi tiu programero ŝanĝiĝis post la bultena anonco.
 
 Ĵus eldoniĝis romana traduko, fare de klubano Anna Löwenstein. Ŝi prezentos la libron kaj parolos pri la tradukon:
 
