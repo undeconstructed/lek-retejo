@@ -16,7 +16,7 @@
       <a class="box-link" href="{{ .RelPermalink }}">
         <div class="event">
           <div class="event-meta">
-            <time class="time"><span class="day">{{ .Date.Day }}</span></time>
+            <time class="time" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"><span class="day">{{ .Date.Day }}</span></time>
           </div>
           <div class="event-line">
             <h3><span class="title">{{ .Title }}</span></h3>

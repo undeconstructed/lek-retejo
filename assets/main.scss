@@ -6,8 +6,11 @@
 
 :root {
   --egreen: #779734;
+  --egreen-rgb: 119, 151, 52;
   --accent: #1b82bf;
+  --accent-rgb: 27, 130, 191;
   --contrast: #982718;
+  --contrast-rgb: 152, 39, 24;
   --width: 80rem;
 }
 
@@ -533,6 +536,16 @@ ul.pagination {
       align-content: center;
       text-align: center;
       color: var(--egreen);
+    }
+  }
+  .event.past {
+    opacity: 70%;
+  }
+  .event.soon {
+    background-color: rgba(var(--egreen-rgb), 0.5);
+
+    .event-ikono {
+      color: white;
     }
   }
 

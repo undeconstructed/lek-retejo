@@ -316,4 +316,19 @@ document.addEventListener('DOMContentLoaded', () => {
       })
     }
   }
+
+  {
+    let calendar = document.querySelector('.calendar')
+    if (calendar) {
+      let now = new Date()
+      for (let e of calendar.querySelectorAll('.event')) {
+        let time = Date.parse(e.querySelector('time').dateTime)
+        if (time < now) {
+          e.classList.add('past')
+        } else if (time - now.getTime() < 604800000) {
+          e.classList.add('soon')
+        }
+      }
+    }
+  }
 })
