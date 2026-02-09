@@ -64,6 +64,7 @@ Disallow: /
 User-agent: barkrowler
 Disallow: /
 
+User-agent: AwarioBot
 User-agent: AwarioRssBot
 User-agent: AwarioSmartBot
 Disallow: / 

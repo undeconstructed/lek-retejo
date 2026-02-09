@@ -4,6 +4,7 @@ date: 2026-02-06T19:00:00+00:00
 published: 2026-01-02T00:00:00+00:00
 eventaservo: c61338
 loko: Zoom
+youtube: ce1oDwyJvAM
 menu:
   main:
     parent: "Eventoj"

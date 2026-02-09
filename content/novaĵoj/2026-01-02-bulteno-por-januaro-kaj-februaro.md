@@ -9,7 +9,7 @@ menu:
 
 La bulteno eldoniĝis, kaj la [eventa paĝo](/eventoj) giŝdatiĝis. Trovu en [paĝo de bultenoj](/bulteno). De la unua paĝo:
 
-## Nova jaro jam ĉeestas
+### Nova jaro jam ĉeestas
 
 Ni komencos la jaron ... kiel ni ﬁnis la lastan! Nia unua
 ĉeesta kunveno estos por festi novjaron, kaj estos plua
