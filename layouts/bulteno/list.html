@@ -5,5 +5,12 @@
 {{ define "main" }}
 <main aria-role="main">
   {{ .Content }}
+
+  {{ $paginator := .Paginator 5 }}
+  {{ range $paginator.Pages }}
+     {{ .Render "withtitle" }}
+  {{ end }}
+
+  {{ partial "pagination.html" . }}
 </main>
 {{ end }}

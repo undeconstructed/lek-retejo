@@ -11,7 +11,7 @@ menu:
 
 La klubo posedas plurajn librojn - ni ne havas komunan lokon por konservi ilin, sed se iu petos, espereble oni povos porti al kunveno.
 
-La [plena listo](https://docs.google.com/spreadsheets/d/1VzrOh-R_qyZAZLI66ZB5-QpNWai2mEHndS9DRe3kxKQ), kun indiko pri kie ĉiu libro estas nun, disponeblas al klubanoj. Ĝi estas en Guglo-docs - premu butonon "peti permeson" kaj entajpi mallongan mesaĝon dirantan kiu vi estas, kaj oni donas al vi permeson.
+La [plena listo](https://docs.google.com/spreadsheets/d/1VzrOh-R_qyZAZLI66ZB5-QpNWai2mEHndS9DRe3kxKQ), kun indiko pri kie ĉiu libro estas nun, disponeblas al klubanoj. Ĝi estas en Guglo-docs - premu butonon "peti permeson" kaj entajpi mallongan mesaĝon dirantan kiu vi estas, kaj oni donos al vi permeson.
 
 ## Inter la libroj...
 

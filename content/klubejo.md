@@ -13,8 +13,15 @@ La surloka klubejo ekzistas nur dum kunvenoj. Bedaŭrinde, tio signifas ke ni ne
 
 LEK posedas kelkajn, ofte tre strangajn, librojn. [Vidu ĉion ĉi tie.](../libraro)
 
+## Tekstoj
+
+Iam ni ludis je io kiun ni nomas [*Kubdubo*](/libraro/kubdubo) (en la angla ĝi povas nomiĝi *Dudo*).
+
+Aktoris ĉe ni klubanoj, laŭ la teatraĵeto [*Provludo en la klubejo*](/libraro/provludo) de Marjorie Boulton.
+
 ## Fotoj
 
+* [Highbury (lud-vespero) - 13an de februaro 2026](https://photos.app.goo.gl/fQEBpKuopUNWM6gG9) - ([eventa paĝo](/eventoj/2026-02-13-ludvespero))
 * [Novjara festo - 9a de januaro 2026](https://photos.app.goo.gl/jUerfLGoe7bHh8fX7) - ([eventa paĝo](/eventoj/2026-01-09-teatraĵo-kaj-bazaro))
 * [Teatraĵo ĉe LEK - 12a de decembro 2025](https://photos.app.goo.gl/3YMTVmwP9srERBsh7) - ([eventa paĝo](/eventoj/2025-12-12-teatraĵo-ĉe-lek))
 * [Anna Löwenstein parolas pri *Aferoj disfalas* - 14a de novembro 2025](https://photos.app.goo.gl/489pNwWqWMXRiXf96) - ([eventa paĝo](/eventoj/2025-11-14-aferoj-disfalas))
