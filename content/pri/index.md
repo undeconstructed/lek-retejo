@@ -58,6 +58,7 @@ La verkistino [Marjorie Boulton](https://eo.wikipedia.org/wiki/Marjorie_Boulton)
 
 Lastatempaj komitatoj konsistis el:
 
+{{< sidescroll >}}
 <table class="tablo-estraro-pasinta">
   <thead>
     <tr>
@@ -181,6 +182,7 @@ Lastatempaj komitatoj konsistis el:
     </tr>-->
   </tbody>
 </table>
+{{</ sidescroll >}}
 
 ## La klubo nun
 

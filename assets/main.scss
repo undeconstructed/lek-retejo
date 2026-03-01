@@ -321,6 +321,11 @@ body>.enhavo {
   gap: 2rem;
 }
 
+.sidescroll {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 body>footer {
   background: rgba(255, 255, 255, 0.8);
   color: gray;
