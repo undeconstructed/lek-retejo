@@ -5,8 +5,7 @@ date: 2026-03-06T19:00:00+00:00
 published: 2026-02-15T00:00:00+00:00
 eventaservo: 550234
 loko: Zoom
-openstreetmap: 
-googlemaps: 
+youtube: 0rF3lWeV7Ds
 menu:
   main:
     parent: "Eventoj"

@@ -12,3 +12,9 @@ menu:
 ---
 
 La jarkunveno por LEK, en kiu ni elektos oficistojn kaj komitatanojn por venonta jaro.
+
+<!--more-->
+
+### Raporto
+
+La paĝo [pri la klubo](/pri) estas ĝisdatigita pri komitatanoj. Resume, la klubo aprobis la jarraporton kaj kasraporton, kaj akceptis ke la samaj komitatanoj restu en posteno.

@@ -23,7 +23,7 @@ La detala historio de la klubo ĝis 1978 estas priskribita en la libro *[Londono
 
 ## Komitato
 
-La nunaj komitatanoj, por la jaro ekde Marto 2025, estas:
+La nunaj komitatanoj, por la jaro ekde Marto 2026, estas:
 
 <table class="tablo-estraro">
   <tbody>
@@ -49,12 +49,12 @@ La nunaj komitatanoj, por la jaro ekde Marto 2025, estas:
     </tr>
     <tr>
       <th>Komitatanoj</th>
-      <td>Alexander Hu, Antony Rawlinson</td>
+      <td>Antony Rawlinson</td>
     </tr>
   </tbody>
 </table>
 
-La verkistino [Marjorie Boulton](https://eo.wikipedia.org/wiki/Marjorie_Boulton) estis honora prezidanto ĝis sia morto en 2017. La lingvisto [John Wells](https://eo.wikipedia.org/wiki/John_C._Wells) estas la nuna honora prezidanto. Heleno Fantom kaj Joyce Bunting estas honoraj vicprezidantoj.
+La verkistino [Marjorie Boulton](https://eo.wikipedia.org/wiki/Marjorie_Boulton) estis honora prezidanto ĝis sia morto en 2017. La lingvisto [John Wells](https://eo.wikipedia.org/wiki/John_C._Wells) estas la nuna honora prezidanto. Heleno Fantom kaj Joyce Bunting estas honoraj vicprezidantoj. Rico Giacometto prizorgas la programon, sed ne estas komitatano.
 
 Lastatempaj komitatoj konsistis el:
 
@@ -171,7 +171,7 @@ Lastatempaj komitatoj konsistis el:
       <td>Anthony Bodineau</td>
       <td>Alexander Hu, Julian Nagele, Maria Nagele, Marius Banaitis, Phil Housley</td>
     </tr>
-    <!--<tr>
+    <tr>
       <td>2025</td>
       <td>Phil Housley</td>
       <td>Matt Peperell</td>
@@ -179,7 +179,7 @@ Lastatempaj komitatoj konsistis el:
       <td>Arturo Prent</td>
       <td>Anthony Bodineau</td>
       <td>Alexander Hu, Antony Rawlinson</td>
-    </tr>-->
+    </tr>
   </tbody>
 </table>
 {{</ sidescroll >}}

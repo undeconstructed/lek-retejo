@@ -15,7 +15,7 @@ menu:
 > Atentu ke ĉi tiu prelego samtempas kun la LEKa jarkunveno. Se vi povas ĉeesti la jarkunvenon, bonvolu fari tion prefere.
 
 > En 2025 duan fojon okazis ke hungara verkisto ricevis Nobel-premion: László Krasznahorkai.
-> 
+>
 > Li havas reputacion de komplika aŭtoro kun frazoj plurpaĝe longaj, eĉ kun romano unufraza.
 Reale, liaj libroj estas paĝturnigaj legaĵoj verkitaj en la natura ritmo de parolo, vivproksimaj, eĉ humuraj.
 Rakontaron lian nun esperantigas István Ertl, kiu klopodos enkonduki vin en la mondon de tiu tre aparta verkisto."
