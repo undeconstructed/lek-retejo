@@ -5,8 +5,7 @@ date: 2026-04-17T19:00:00+00:00
 published: 2026-03-15T00:00:00+00:00
 eventaservo: d215aa
 loko: Zoom
-openstreetmap: https://www.openstreetmap.org/way/250635446
-googlemaps: https://maps.app.goo.gl/GhUo8SitGRomvG8Y8
+youtube: iy7MVZ-jH30
 menu:
   main:
     parent: "Eventoj"

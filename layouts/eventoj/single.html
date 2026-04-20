@@ -28,7 +28,10 @@
 
     {{- if .Param "fotoj" }}
     <p><a href="{{ .Param "fotoj" }}">Fotoj de la okazo</a>.</p>
-    {{- else }}
+    {{- end }}
+
+    <h3>Detaloj</h3>
+
     <p>
       {{- if .Param "eventaservo" }}
         Por pli da informo, vidu en <a href="https://eventaservo.org/e/{{ .Param "eventaservo" }}">Eventa Servo</a>.
@@ -36,9 +39,15 @@
       {{- if eq (.Param "loko") "Zoom" }}
         {{- if .Date.After time.Now }}
           La evento okazos per Zoom; por havi ligilon, uzu <a href="/zoom">ĉi tiun formularon</a>.
+        {{- else }}
+          La evento okazis per Zoom.
         {{- end -}}
       {{- else if eq (.Param "loko") "Highbury" }}
-        La evento okazos ĉe nia kunvenejo en Highbury.
+        {{- if .Date.After time.Now }}
+          La evento okazos ĉe nia kunvenejo en Highbury.
+        {{- else }}
+          La evento okazis ĉe nia kunvenejo en Highbury.
+        {{- end -}}
       {{- end -}}
       {{- if .Param "openstreetmap" }}
         Trovu la lokon en <a href="{{- .Param "openstreetmap" }}">OpenStreetMap</a>
@@ -47,7 +56,6 @@
         Trovu la lokon en <a href="{{- .Param "googlemaps" }}">Google Maps</a>.
       {{- end -}}
     </p>
-    {{- end }}
   </article>
 
   <ul class="pagination">
