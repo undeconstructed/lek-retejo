@@ -1,9 +1,9 @@
 ---
 title: 'Tegmentoj de Kastelo Greziljono'
-summary: 'Pierre Grollemund, ekstegmentisto, parolos pri tegmentoj fine rekonstruitaj, post 10 jaroj da konstantaj laboroj'
+summary: 'Pierre Grollemund, ekstegmentisto, parolos pri tegmentoj fine rekonstruitaj, post 10 jaroj da konstantaj laboroj.'
 date: 2026-06-26T19:00:00+00:00
 published: 2026-05-20T00:00:00+00:00
-eventaservo: 
+eventaservo: af5277
 loko: Zoom
 openstreetmap: 
 googlemaps: 

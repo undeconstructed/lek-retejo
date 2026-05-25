@@ -21,6 +21,7 @@ Aktoris ĉe ni klubanoj, laŭ la teatraĵeto [*Provludo en la klubejo*](/libraro
 
 ## Fotoj
 
+* [Highbury (lud-vespero) - 8an de majo 2026](https://photos.app.goo.gl/QTSPSxnByzErfYua9) - ([eventa paĝo](/eventoj/2026-05-08-ludvespero))
 * [Highbury (lud-vespero) - 13an de februaro 2026](https://photos.app.goo.gl/fQEBpKuopUNWM6gG9) - ([eventa paĝo](/eventoj/2026-02-13-ludvespero))
 * [Novjara festo - 9a de januaro 2026](https://photos.app.goo.gl/jUerfLGoe7bHh8fX7) - ([eventa paĝo](/eventoj/2026-01-09-teatraĵo-kaj-bazaro))
 * [Teatraĵo ĉe LEK - 12a de decembro 2025](https://photos.app.goo.gl/3YMTVmwP9srERBsh7) - ([eventa paĝo](/eventoj/2025-12-12-teatraĵo-ĉe-lek))

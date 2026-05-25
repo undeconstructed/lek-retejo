@@ -2,7 +2,7 @@
 title: 'Lingva seminario'
 date: 2026-06-12T19:15:00+00:00
 published: 2026-05-20T00:00:00+00:00
-eventaservo: 
+eventaservo: f70c9c
 loko: Highbury
 openstreetmap: https://www.openstreetmap.org/way/250635446
 googlemaps: https://maps.app.goo.gl/GhUo8SitGRomvG8Y8

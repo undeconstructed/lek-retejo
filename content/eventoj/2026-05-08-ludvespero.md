@@ -3,10 +3,11 @@ title: 'Ludvespero'
 summary: 'Ni ludu!'
 date: 2026-05-08T19:15:00+00:00
 published: 2026-04-30T00:00:00+00:00
-eventaservo: 
+eventaservo: e1a0e4
 loko: Highbury
 openstreetmap: https://www.openstreetmap.org/way/250635446
 googlemaps: https://maps.app.goo.gl/GhUo8SitGRomvG8Y8
+fotoj: https://photos.app.goo.gl/QTSPSxnByzErfYua9
 menu:
   main:
     parent: "Eventoj"

@@ -3,7 +3,7 @@ title: 'Ĉesu malfeliĉigi vin! – La arto trovi veran kontenton'
 summary: 'Jürgen Wulff, aŭtoro de germanlingva furorlibro pri feliĉo, invitas vin malkovri, kiel ni mem kreas nian malfeliĉon'
 date: 2026-05-29T19:00:00+00:00
 published: 2026-04-30T00:00:00+00:00
-eventaservo: 
+eventaservo: 4e0efe
 loko: Zoom
 openstreetmap: 
 googlemaps: 
