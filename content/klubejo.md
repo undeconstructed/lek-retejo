@@ -21,6 +21,7 @@ Aktoris ĉe ni klubanoj, laŭ la teatraĵeto [*Provludo en la klubejo*](/libraro
 
 ## Fotoj
 
+* [Highbury, lingva semanario pri arboj - 12an de junio 2026](https://photos.app.goo.gl/MvgoCJohR7tjKJvFA) - ([eventa paĝo](/eventoj/2026-06-12-lingva-seminario))
 * [Highbury (lud-vespero) - 8an de majo 2026](https://photos.app.goo.gl/QTSPSxnByzErfYua9) - ([eventa paĝo](/eventoj/2026-05-08-ludvespero))
 * [Highbury (lud-vespero) - 13an de februaro 2026](https://photos.app.goo.gl/fQEBpKuopUNWM6gG9) - ([eventa paĝo](/eventoj/2026-02-13-ludvespero))
 * [Novjara festo - 9a de januaro 2026](https://photos.app.goo.gl/jUerfLGoe7bHh8fX7) - ([eventa paĝo](/eventoj/2026-01-09-teatraĵo-kaj-bazaro))
