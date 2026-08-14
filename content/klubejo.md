@@ -21,6 +21,7 @@ Aktoris ĉe ni klubanoj, laŭ la teatraĵeto [*Provludo en la klubejo*](/libraro
 
 ## Fotoj
 
+* [Grupa promeno kaj leonoj - 15a da julio](https://photos.app.goo.gl/6buWPjAnqTvs6cHg8) - ([eventa paĝo](/eventoj/2026-07-05-leona-promeno))
 * [Highbury, lingva semanario pri arboj - 12an de junio 2026](https://photos.app.goo.gl/MvgoCJohR7tjKJvFA) - ([eventa paĝo](/eventoj/2026-06-12-lingva-seminario))
 * [Highbury (lud-vespero) - 8an de majo 2026](https://photos.app.goo.gl/QTSPSxnByzErfYua9) - ([eventa paĝo](/eventoj/2026-05-08-ludvespero))
 * [Highbury (lud-vespero) - 13an de februaro 2026](https://photos.app.goo.gl/fQEBpKuopUNWM6gG9) - ([eventa paĝo](/eventoj/2026-02-13-ludvespero))

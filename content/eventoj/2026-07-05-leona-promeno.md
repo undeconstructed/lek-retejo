@@ -6,6 +6,7 @@ eventaservo: 1cfb1a
 loko: Komenve ĉe statio Temple
 openstreetmap: https://www.openstreetmap.org/node/6368951709
 googlemaps: https://maps.app.goo.gl/zMBp2koXVRobP2ZM6
+fotoj: https://photos.app.goo.gl/6buWPjAnqTvs6cHg8
 menu:
   main:
     parent: "Eventoj"
