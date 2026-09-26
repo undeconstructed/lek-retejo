@@ -2,7 +2,7 @@
 title: 'La kaptito de Neustrelitz'
 date: 2026-10-23T19:00:00+00:00
 published: 2026-09-26T00:00:00+00:00
-eventaservo: 
+eventaservo: 3a888f
 loko: Zoom
 openstreetmap: 
 googlemaps: 
