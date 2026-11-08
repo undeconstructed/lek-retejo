@@ -6,6 +6,7 @@ eventaservo: b8918d
 loko: Highbury
 openstreetmap: https://www.openstreetmap.org/way/250635446
 googlemaps: https://maps.app.goo.gl/GhUo8SitGRomvG8Y8
+fotoj: https://photos.app.goo.gl/ifX3ghPjBJE9J7Up7
 menu:
   main:
     parent: "Eventoj"

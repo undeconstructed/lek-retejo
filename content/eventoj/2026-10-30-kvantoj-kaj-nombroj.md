@@ -7,6 +7,7 @@ eventaservo:
 loko: Zoom
 openstreetmap: 
 googlemaps: 
+youtube: I27RIXZYayw
 menu:
   main:
     parent: "Eventoj"
