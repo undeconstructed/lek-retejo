@@ -16,7 +16,7 @@ const months = [
 
 const TESTING = false
 const ERROR = false
-const URL = 'https://ekilio.com/api/lek/ZC7QTQ4ZSG'
+const URL = 'https://ekilio.com/api/lek'
 
 const KEYS = {
   'kontakt': '376JVOVI07',
