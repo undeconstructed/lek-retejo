@@ -16,7 +16,7 @@ const months = [
 
 const TESTING = false
 const ERROR = false
-const URL = 'https://ekilio.com/api/lek'
+const URL = 'https://kursaro.net/api/lek'
 
 const KEYS = {
   'kontakt': '376JVOVI07',
