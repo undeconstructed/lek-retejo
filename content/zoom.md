@@ -48,9 +48,16 @@ Por ricevi ĝin, simple plenigu la ĉi-suban formularon. Se vi havas ajnan deman
       </div>
     </div>
     <div class="line">
+      <div class="cell">
+        <div class="cell-body"><div class="cf-turnstile" data-sitekey="0x4AAAAAAGAsAflIKWpq_y8u"></div></div>
+      </div>
+    </div>
+    <div class="line">
       <div class="cell buttons">
         <div class="cell-body"><button type="submit" data-button-submit>Sendu</button></div>
       </div>
     </div>
   </form>
 </div>
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>

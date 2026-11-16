@@ -16,7 +16,7 @@ const months = [
 
 const TESTING = false
 const ERROR = false
-const URL = 'https://kursaro.net/api/lek'
+const API_URL = 'https://kursaro.net/api/lek'
 
 const KEYS = {
   'kontakt': '376JVOVI07',
@@ -161,7 +161,7 @@ function setupForm(form, opts) {
     }
 
     if (!res.ok) {
-      opts.onError(`eraro de HTTP: ${httpStatus}`)
+      opts.onError(`eraro de HTTP: ${res.status}`)
       return
     }
 
@@ -188,7 +188,7 @@ function setupForm(form, opts) {
     }
   }
 
-  opts.url = opts.url || URL
+  opts.url = opts.url || API_URL
 
   opts.onInvalid = opts.onInvalid || (() => {
     showMessage('invalid')
@@ -207,6 +207,11 @@ function setupForm(form, opts) {
       await submit(data)
     } else {
       await fakeSubmit(data)
+    }
+
+    // Cloudflare Turnstile: ĉiu ĵetono validas nur unufoje, do nova por la sekva sendo
+    if (window.turnstile) {
+      turnstile.reset()
     }
   
     form.removeAttribute('inert')
@@ -259,6 +264,12 @@ function setupForm(form, opts) {
       }
     }
 
+    // Cloudflare Turnstile: la fenestraĵo metas la ĵetonon en kaŝitan kampon sen data-post-name
+    let ts = form.querySelector('[name="cf-turnstile-response"]')
+    if (ts) {
+      data['Turnstile'] = ts.value
+    }
+
     // console.log(data)
     opts.onValid()
     opts.onSubmit(data)
@@ -287,7 +298,7 @@ document.addEventListener('DOMContentLoaded', () => {
       //   KeyList:	listID,
       // })
 
-      // cacheFetch('memberships', 300, URL, {
+      // cacheFetch('memberships', 300, API_URL, {
       //   method: 'POST', headers: {
       //     'Content-Type': 'application/json',
       //   }, body }).
