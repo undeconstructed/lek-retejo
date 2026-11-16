@@ -11,7 +11,7 @@
     {{- range $paginator.Pages }}
       {{- $monato := index $.Site.Data.monatoj (printf "%d" .Date.Month) }}
       {{- $novaTitolo := fmt.Printf "%s %d" $monato .Date.Year }}
-      {{- if ne $titolo $novaTitolo}}<h1>En {{ $novaTitolo }}</h1>{{ end }}
+      {{- if ne $titolo $novaTitolo}}<h2>En {{ $novaTitolo }}</h2>{{ end }}
       {{- $titolo = $novaTitolo }}
       <a class="box-link" href="{{ .RelPermalink }}">
         <div class="event">

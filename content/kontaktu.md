@@ -5,9 +5,19 @@ weight: 80
 menu: main
 ---
 
+{{< twolang >}}
+  {{< lang eo >}}
 # Kontaku nin
 
-Bonvolu kontaktu nin rete pere de ĉi tiu formularo - la klubo ne havas propran adreson por ricevi paperan poŝŧon. Se vi volas sendi ion, ni petas ke vi do kontaktu nin unue ĉi tiel por aranĝi.
+Bonvolu kontaktu nin rete pere de ĉi tiu formularo. La klubo ne havas propran adreson por ricevi paperan poŝton. Se vi volas sendi ion, ni petas ke vi do kontaktu nin unue ĉi tiel por aranĝi.
+  {{</ lang >}}
+  {{< lang en >}}
+# Contact us
+
+Please contact us electronically using this form. The club doesn't have its own address for receiving paper post. If you want to send something, we ask that you contact us first this way to arrange.
+  {{</ lang >}}
+{{</ twolang >}}
+
 
 <div class="form" id="contactform">
   <form id="formContactUs">
